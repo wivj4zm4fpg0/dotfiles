@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/satoru/.emacs.d'
+let g:netrw_dirhist_2='/usr/share/X11/xkb/symbols'
+let g:netrw_dirhist_3='/home/satoru/Git/.git'
+let g:netrw_dirhist_4='/home/satoru/.git'
+let g:netrw_dirhist_5='/home/satoru/.emacs.d'
+let g:netrw_dirhist_6='/home/satoru/Git/.git'
+let g:netrw_dirhist_7='/home/satoru/.git'
+let g:netrw_dirhist_8='/home/satoru/.config'

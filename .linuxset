@@ -1,0 +1,5 @@
+#!/bin/bash
+xcape -e '#65=space'
+synclient FingerHigh=40
+synclient FingerLow=35
+

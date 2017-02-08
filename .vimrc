@@ -1,0 +1,17 @@
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set cindent
+colorscheme molokai
+set t_Co=256
+set ignorecase
+set smartcase
+set ruler
+set list
+set wildmenu
+set nf=hex
+set number
+syntax on
+set nowrap
+set cursorline
