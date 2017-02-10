@@ -1,6 +1,0 @@
-ToolBar,Table
-
-ToolBar,Main
-
-ToolBar,Display
-

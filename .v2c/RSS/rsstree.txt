@@ -1,5 +1,0 @@
-0,E,RSS
-1,E,ニュース
-2,http://www.2nn.jp/rss/index.rdf,2NN+
-2,http://www3.asahi.com/rss/index.rdf,asahi.com
-2,http://japan.cnet.com/rss/index.rdf,CNET Japan

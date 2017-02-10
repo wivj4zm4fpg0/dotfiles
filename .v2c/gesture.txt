@@ -1,9 +1,0 @@
-Map,Global
-1,CloseTab
-d,SelectRightTab
-u,SelectLeftTab
-
-Map,ThreadView
-L,DisplayPaneHistoryBack
-R,DisplayPaneHistoryForward
-

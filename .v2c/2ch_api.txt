@@ -1,9 +1,0 @@
-2chAPI.AppKey=INVALID_APP_KEY
-2chAPI.UAAuth=Monazilla/1.00 (V2C/2.11.4)
-2chAPI.UseAPI=false
-2chAPI.UseHTML=true
-2chAPI.UAPost=Monazilla/1.00 (V2C/2.11.4)
-2chAPI.UAName=Monazilla/1.00 (V2C/2.11.4)
-2chAPI.HMKey=INVALID_HM_KEY
-2chAPI.UseSC=false
-2chAPI.X2chUA=DOLIB/1.00

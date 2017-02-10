@@ -1,8 +1,0 @@
-Board.BBS:=2ch
-Board.HeadTxtCond:=:C1486577088100	EW/"570c5b47-3ef"	L1460427591000	T1486577088100
-Board.RealLastCheckTime:=1486559322000
-Board.LastCheckTime:=1486559322000
-Board.SubjectTime:=1486577082000
-Board.SecondLastCheckTime:=0
-Board.SettingTxtCond:=:C1486577087792	EW/"578ac755-475"	L1468712789000	T1486577087792
-Board.Name:=半角二次元
