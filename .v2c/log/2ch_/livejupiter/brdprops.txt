@@ -1,0 +1,8 @@
+Board.BBS:=2ch
+Board.HeadTxtCond:=:C1486577046935	EW/"57869ff3-71a"	L1468440563000	T1486577046935
+Board.RealLastCheckTime:=1486576990000
+Board.LastCheckTime:=1486576990000
+Board.SubjectTime:=1486577043000
+Board.SecondLastCheckTime:=0
+Board.SettingTxtCond:=:C1486577046730	EW/"57869ff3-463"	L1468440563000	T1486577046730
+Board.Name:=なんでも実況J

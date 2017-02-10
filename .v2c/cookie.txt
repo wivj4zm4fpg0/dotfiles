@@ -1,0 +1,2 @@
+https://api.2ch.net/v1/auth/	__cfduid=d597dbbf92dae3282053523ddca213b3d1486577130; expires=Thu, 08-Feb-18 18:05:30 GMT; path=/; domain=.2ch.net; HttpOnly
+http://mercury.bbspink.com/ascii2d/subject.txt	__cfduid=d890ad657bbe81d8623c6845b131f32541486577082; expires=Thu, 08-Feb-18 18:04:42 GMT; path=/; domain=.bbspink.com; HttpOnly

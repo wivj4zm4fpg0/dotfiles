@@ -1,0 +1,3 @@
+Default,N,Monospaced.bold
+ThreadDefault,N,TakaoPGothic
+ThreadAlt,N,Dialog.bold

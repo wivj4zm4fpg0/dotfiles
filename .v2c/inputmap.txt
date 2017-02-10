@@ -1,0 +1,63 @@
+Map,Global
+ctrl C,Copy
+ctrl A,SelectAll
+ctrl F,Find
+ctrl G,FindNext
+shift ctrl G,FindPrevious
+
+Map,BoardTree
+ENTER,OpenBoard
+shift ENTER,OpenBoardWithNewTab
+
+Map,Favorite
+ENTER,OpenFavoriteItem
+shift ENTER,OpenFavoriteItemWithNewTab
+
+Map,ThreadList
+ENTER,OpenThread
+shift ENTER,OpenThreadWithNewTab
+R,UpdateList
+N,OpenNextThreadWithNewRes
+shift N,OpenNextThreadWithNewResWithNewTab
+ESCAPE,ResetDisplay
+
+Map,ThreadView
+HOME,ThreadPanelPageTop
+END,ThreadPanelPageBottom
+PAGE_UP,ThreadPanelPageUp
+PAGE_DOWN,ThreadPanelPageDown
+UP,ThreadPanelLineUp
+DOWN,ThreadPanelLineDown
+SPACE,ThreadPanelNextRes
+B,ThreadPanelPreviousRes
+F,ToggleAltFont
+G,ToggleGraphMode
+J,GoToMark
+M,MarkViewPosition
+N,OpenNextThreadWithNewRes
+R,UpdateThread
+ESCAPE,ResetDisplay
+
+Map,Write
+ctrl Z,UndoWriteMessage
+ctrl Y,RedoWriteMessage
+
+Map,BoardTreeMiniSearch
+ENTER,FindNext
+shift ENTER,FindPrevious
+
+Map,ThreadListMiniSearch
+ENTER,Filter
+ESCAPE,ResetDisplay
+
+Map,ThreadViewMiniSearch
+ENTER,Filter
+ESCAPE,ResetDisplay
+
+Map,ImageCacheList
+ENTER,ShowSelectedImage
+
+Map,ImagePopup
+
+Map,ImageWindow
+SPACE,ShowNextImage
