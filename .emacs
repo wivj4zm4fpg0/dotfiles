@@ -49,3 +49,7 @@
 (eval-after-load 'flycheck
   '(custom-set-variables
    '(flycheck-display-errors-function #'flycheck-pos-tip-error-messages)))
+
+;;左右に分割
+(setq w (selected-window))
+(setq w2 (split-window w nil t))
