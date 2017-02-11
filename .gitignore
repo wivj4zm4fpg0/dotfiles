@@ -20,7 +20,6 @@
 .dotfiles
 .dropbox
 .dropbox-dist
-.easystroke
 .emacs~
 .freemind
 .gconf
@@ -29,7 +28,6 @@
 .gnome
 .icons
 .java
-.jd
 .linuxmint
 .local
 .mozc
@@ -83,3 +81,6 @@ bin
 .cask/
 .gnupg/
 .v2c/
+.eclipse
+.jmc
+.recently-used

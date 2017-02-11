@@ -1,0 +1,18 @@
+login:Penguin<><>2017/02/09(木) 08:04:05.52 ID:qM4ysUXc<> ■ Ubuntu 公式サイト <br> http://www.ubuntu.com/ <br> ■ Ubuntu Japanese Team <br> http://www.ubuntulinux.jp/ <br> ほかほか <br> <br> 前スレ <br> 【初心者】Ubuntu Linux 109【本スレ】 [無断転載禁止]&#169;2ch.net <br> http://hayabusa6.2ch.net/test/read.cgi/linux/1482659445/ <br> <br> ■■■常駐あらし「デル男」に関する必須注意事項■■■ <br> <br> ・デル男は出入り禁止・独り言を呟いても完全スルー <br> ・デル男の相手をした奴も嵐と見なしてスルー <br> ・推奨NGワード「梨奈、…w、dailymotion」 <br> ・どうしてもレス付けざるを得ないときは「ところで職業は？/お仕事は？」と問いかけるのを忘れずに。 <>【初心者】Ubuntu Linux 110【本スレ】 [無断転載禁止]&#169;2ch.net 
+login:Penguin<>sage<>2017/02/09(木) 09:21:57.17 ID:0HZrIPrd<> <a href="../test/read.cgi/linux/1486595045/1" rel="noopener noreferrer" target="_blank">&gt;&gt;1</a> <br> 乙 <>
+login:Penguin<>sage<>2017/02/09(木) 09:54:23.74 ID:9mhYA0b0<> 全 <br> 角 <br> イ <br> ヤ <br> ン <br> バ <br> カ <br> ン <br> ソ <br> コーンも参戦 <>
+login:Penguin<><>2017/02/10(金) 00:53:41.16 ID:GKiD0wpX<> ウェブカメラをつかって写真をとりたいのですが方法がわかりません <br> カメラの型番はlogicool のv-ube43です <br> cheeseを試した見たのですがダメでした <br> <br> 音声だけ録音したり <br> ニコ生で配信したりはできるのですが… <>
+login:Penguin<>sage<>2017/02/10(金) 01:22:55.34 ID:3TfD5UdM<> 動画じゃなくて静止画？ <br> fswebcamやmotionは試してみた？ <>
+login:Penguin<><>2017/02/10(金) 03:52:36.44 ID:GKiD0wpX<> fswebcam をためしたら↓のエラー出ました <br> <br> --- Opening /dev/video0... <br> stat: No such file or directory <br> <br> <br> motinoってアプリはみつからなかったのですがstopmotionってのがあったのでためしてみたけどだめでした <br> <br> I/O error : No such file or directory <br> <br> 認識されてないんですかね？ <br> ニコ生だと動画ちゃんとうつるんだけどなぁ <>
+login:Penguin<><>2017/02/10(金) 06:29:33.82 ID:37zzfOCM<> 使っているユーザーをVideoグループに追加する <>
+login:Penguin<>sage<>2017/02/10(金) 11:48:58.08 ID:AT68FJBh<> SWAPパーティションでフォーマットしたUSBメモリ挿しとけば <br> ライブDVDでもスワップ使うの？ <>
+login:Penguin<>sage<>2017/02/10(金) 11:52:07.18 ID:0AV6OFWv<> 最終手段としてはスクショだなｗ <>
+login:Penguin<><>2017/02/10(金) 12:37:13.48 ID:37zzfOCM<> <a href="../test/read.cgi/linux/1486595045/8" rel="noopener noreferrer" target="_blank">&gt;&gt;8</a> <br> 使うよ <br> 同様にLive起動して内蔵HDDにSwapパーティションがあっても使う <>
+6<><>2017/02/10(金) 13:16:19.57 ID:eXD0AV7j<> v4lってのいれればいけるかもと思ってインストールしたら <br> かなり長々とインストールしてたのでいけるかもと思ったけどだめでした。 <br> Kamerkaっての起動したら V4Lデバイスにアクセスできませんと なるし <br> 今インストールしたやん… <br> よくわからん。 <>
+login:Penguin<>sage<>2017/02/10(金) 14:04:14.50 ID:Jo0TZTqs<> ソフトがしがしぶっこむやん <br> 動くまでぶっこむスタイルか <br> なんかエラーが権限ぽくない？ <br> 上にVIDEOグループなんてあるけど入ったの <>
+login:Penguin<>sage<>2017/02/10(金) 15:27:50.01 ID:WsPxvl79<> 既にアップデートで16.04.2は入ったから今度は遅れないと思う <>
+login:Penguin<>sage<>2017/02/10(金) 19:53:49.05 ID:5b9it3tb<> ターミナルで使うモノフォントは何がおすすめ？ <br> 教えてください！ <>
+login:Penguin<>sage<>2017/02/10(金) 20:47:18.93 ID:rzYMulqj<> <a href="../test/read.cgi/linux/1486595045/14" rel="noopener noreferrer" target="_blank">&gt;&gt;14</a> <br> Myrica <br> 欧文と和文の比率が1:2じゃなくてもいいなら、Source Han Code JP <>
+login:Penguin<>sage<>2017/02/10(金) 21:56:24.24 ID:06mmyC0C<> ssh(telnetでもいいんですけど)からGUIアプリケーションを起動させたいのですがやり方がわかりません。 <br> ただし、遠隔の端末でGUIアプリケーションを使いたいわけではありません。 <br> ssh -Xでやるような事ではなく、単純にsshで接続してコマンド等を実行すると、実機の方でGUIアプリが立ち上がるというようなことがしたいのです。 <br> どのようにすれば遠隔からGUIアプリを起動できるのでしょうか？ <>
+login:Penguin<>sage<>2017/02/10(金) 23:06:44.98 ID:oBRZAwUQ<> <a href="../test/read.cgi/linux/1486595045/16" rel="noopener noreferrer" target="_blank">&gt;&gt;16</a> <br> 環境変数DISPLAYで調べる <>
+login:Penguin<>sage<>2017/02/11(土) 00:17:13.58 ID:HIh2jUTA<> <a href="../test/read.cgi/linux/1486595045/17" rel="noopener noreferrer" target="_blank">&gt;&gt;17</a> <br> ありがとうございます。 <br> できました。 <>

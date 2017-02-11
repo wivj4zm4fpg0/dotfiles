@@ -1,0 +1,163 @@
+デフォルトの名無しさん<>sage<>2014/07/05(土) 01:27:45.85 ID:SKNQTnLZ<> JavaFXについてのスレッドです <>【Java標準GUIライブラリ】 JavaFX スレッド
+デフォルトの名無しさん<>sage<>2014/07/05(土) 15:28:58.08 ID:ww0v9g/c<> MediaPlayerでどの環境でも再生できる音声フォーマットはmp3だけ？ <br> FLACに対応してくれたらいいのに <>
+デフォルトの名無しさん<>sage<>2014/07/06(日) 22:11:04.13 ID:05LU/QxA<> JavaFXで碁盤のようなものを作りたいと思っています。 <br> 碁石には画像を使いたいと思っています。 <br> どんなクラスを使えばよいでしょうか。 <>
+デフォルトの名無しさん<>sage<>2014/07/21(月) 23:38:51.42 ID:U2gOsErh<> Imageクラス <>
+デフォルトの名無しさん<>sage<>2014/07/22(火) 00:34:24.75 ID:oB2DrPHP<> ２週間も長考してたのか <>
+デフォルトの名無しさん<>sage<>2014/08/08(金) 03:00:10.42 ID:W/TCi66w<> http://www.buzzword.jp/img/face10.png <>
+デフォルトの名無しさん<>sage<>2014/08/24(日) 22:49:38.18 ID:591dIUnw<> ふち付文字など、少し装飾の凝った文字を、Textのインスタンスを２つ使って表現しようと思ってるんですが <br> どのようにするのがスマートでしょうか <br> <br> 理想としては、Textのサブクラスのように振る舞わせたいのですが、 <br> Textにinterfaceが用意されてないので悩みます <br> <br> Textにinterfaceがあれば、適当なGroupと共に２つのTextインスタンスを包含して委譲することによって、 <br> Textを操作するのと同じ感覚で、２つのTextを一つのコンポーネント（Nodeというべきかも）として扱えるのですが・・・ <br> <br> それと、Textを継承してメンバにTextを持たせるとした場合、 <br> コンポーネントを２つ描画させたい場合は、eventDispatcherでメンバのも呼び出せばいいんでしょうか？ <br> このあたり、どのように描画をしているのか全く見当がついてません・・ <>
+デフォルトの名無しさん<>sage<>2014/09/07(日) 21:12:41.44 ID:2nNDq8Bj<> ちょっと待ってください <br> <br> FXってjavaの「標準GUI」なんですか？ <>
+デフォルトの名無しさん<>sage<>2014/09/07(日) 22:17:01.37 ID:KNwhARCn<> 現実に使われていないものを標準と呼ぶのは無理があるよ <br> Javaの標準GUIはHTML <>
+デフォルトの名無しさん<>sage<>2014/09/08(月) 08:40:10.42 ID:3+YEeOlZ<> 最近のJavaに標準搭載、ならOK <>
+デフォルトの名無しさん<>sage<>2014/09/08(月) 20:26:32.19 ID:DVO5G7u8<> 標準でネイティブのラッパーってかなり嬉しいと思うんだけど <br> 流行ってないのは日本語ドキュメントがないから？ <>
+デフォルトの名無しさん<>sage<>2014/09/09(火) 05:08:57.14 ID:Vi+Y63Qm<> JavaFXってシステムのHIDと描画機能だけ使ってフルスクラッチでGUI作ってるんだが <br> ネイティブのラッパーって何のこと? <br> 流行ってないのはSwingがクソなまま放置されすぎて誰もGUI作るのにJavaを使わなくなったからだよ <>
+デフォルトの名無しさん<>sage<>2014/09/09(火) 14:11:13.56 ID:y9OIBMqg<> アプレット（）と同じでブラウザで気軽に実行できなくなったのも× <>
+デフォルトの名無しさん<>sage<>2014/09/13(土) 09:34:09.96 ID:xzDWW8BI<> 標準だし、盛り上げていきたいね <>
+デフォルトの名無しさん<>sage<>2014/09/13(土) 10:02:27.36 ID:DTDaEtud<> 企業がイントラで使うか組み込みで使うかくらいだね <br> いずれにせよオラクルに直接お布施してる方達が使うものであって <br> 草の根レベルで盛り上げるようなもんじゃない <>
+デフォルトの名無しさん<><>2014/09/15(月) 17:07:53.57 ID:GbCEgEkP<> Javaは無料です。 <>
+デフォルトの名無しさん<>sage<>2014/09/15(月) 18:42:00.16 ID:upNhnkM6<> 「無料だから」なのか <br> 「無料なのに」なのか <>
+デフォルトの名無しさん<><>2014/09/16(火) 21:09:36.64 ID:hzlXvld1<> ただほど高いものはない。俺は、Javaでいやって言うほど思い知らされた。 <br> <br> あと、JDK8はWindowsXPでつかえないから嫌だ。 <>
+デフォルトの名無しさん<>sage<>2014/09/17(水) 19:36:02.84 ID:w5kvYj9G<> XPを考慮しないといけない立場に親近感とともに同情を禁じ得ない <br> そのレベルの相手になるとJavaの扱いも本当にひどいんだよな・・・ <>
+デフォルトの名無しさん<>sage<>2014/09/17(水) 19:47:18.14 ID:ji0sMMym<> Java SEが動くスマホとかあればなぁ <>
+デフォルトの名無しさん<><>2014/09/17(水) 21:51:56.17 ID:WDyxrwZ3<> <a href="../test/read.cgi/tech/1404491265/20" target="_blank">&gt;&gt;20</a> <br> ？ <>
+デフォルトの名無しさん<>sage<>2014/09/17(水) 21:53:45.13 ID:wMgCBxDy<> 逆に考えるんだ <br> 歴代のJavaMEを搭載した数々のモバイル端末は <br> Javaだったから流行らなかったのだと <>
+デフォルトの名無しさん<>sage<>2014/09/17(水) 21:58:35.43 ID:2WfHlgOC<> Write once, run anywhere　という幻想 <>
+デフォルトの名無しさん<><>2014/09/19(金) 03:11:52.20 ID:7FCDfZaC<> JavaFXで2chブラウザ作ったからよかったら使ってみて <br> 感想コメントしてくれるとありがたい <br> http://www.m9-www.com/ <>
+デフォルトの名無しさん<>sage<>2014/09/23(火) 02:39:34.93 ID:rMNwwcoj<> な～んか、WPFと同じ道を辿りそうだね・・　というより、むしろWPFの方がましか。。 <br> <br> 俺はMSより、Oracleの方が好きだから、頑張れ！Oracle。Swingは趣味でやってたけど <br> 金は稼げませんでしたｗｗ <>
+デフォルトの名無しさん<>sage<>2014/09/23(火) 02:45:14.98 ID:FixWuaqS<> AndroidとiOSで使えたらいいのに <>
+デフォルトの名無しさん<>sage<>2014/09/23(火) 18:21:33.62 ID:qxioUyuZ<> JVMを仮想マシンじゃなくて実機として搭載したパソコンや携帯が普及すればあるいは… <>
+デフォルトの名無しさん<>sage<>2014/09/23(火) 18:28:58.61 ID:21PmSReP<> fxやろうとシーンビルだー使ってみたんだけど <br> これイベントのメソッドを自動で入れてくれないのかね <br> ないとやる気がでん・・・ <>
+デフォルトの名無しさん<>sage<>2014/09/24(水) 23:56:55.49 ID:yadyJ4T4<> <a href="../test/read.cgi/tech/1404491265/27" target="_blank">&gt;&gt;27</a> <br> 後発のJVM言語ですらプログラマ的にじれったい言語が多いんで <br> ここらで新しいVM言語を・・・ <>
+デフォルトの名無しさん<>sage<>2014/09/25(木) 08:58:26.61 ID:h2imT1PM<> <a href="../test/read.cgi/tech/1404491265/8-9" target="_blank">&gt;&gt;8-9</a> <br> 世界標準言語エスペラント語、的な。 <>
+デフォルトの名無しさん<>sage<>2014/10/29(水) 22:16:23.50 ID:PhQIfjta<> FX触ってみてるけど <br> listviewの中身をシーンビルダーで自由に作れるるんだな <br> 自分で描画しなくていいからおもしろくなってきた <br> けど流行らなそうだな・・・ <>
+デフォルトの名無しさん<>sage<>2014/10/29(水) 22:19:10.71 ID:haJUSSbe<> 流行らなそうというより、もう失敗して終わったと言っていいかと <>
+デフォルトの名無しさん<>sage<>2014/10/30(木) 23:33:22.38 ID:i7GNsy6Q<> でもswingが大失敗したから、awtかFXの二択なのは変わらないと思う <>
+デフォルトの名無しさん<><>2014/10/30(木) 23:57:50.66 ID:H02odoB1<> なんでawtが出てくるんんだよ？ <>
+デフォルトの名無しさん<>sage<>2014/10/30(木) 23:59:58.29 ID:i7GNsy6Q<> <a href="../test/read.cgi/tech/1404491265/34" target="_blank">&gt;&gt;34</a> <br> javaが普及したときに騙されて学習した(させられた)人がたくさんいるから <>
+デフォルトの名無しさん<>sage<>2014/10/31(金) 00:39:04.59 ID:Ere5y3pN<> スレッド制限するしクライアントアプリの描画ツールとしても弱い <>
+デフォルトの名無しさん<>sage<>2014/10/31(金) 06:50:11.62 ID:kWsbvWPF<> <a href="../test/read.cgi/tech/1404491265/33" target="_blank">&gt;&gt;33</a> <br> 2択? <br> JavaでGUIというとHTMLのことを指すんだよ <>
+デフォルトの名無しさん<>sage<>2014/10/31(金) 21:53:14.05 ID:XfLBCb9Z<> windowsとlinuxで動いてGUIをタグで記述して作れるってので <br> JavaFXを選ぼうかと思ったんだけどだめかね <br> htmlとかjava scriptはやりたくないからなぁ <>
+デフォルトの名無しさん<><>2014/10/31(金) 23:30:07.59 ID:hP41p8uD<> 駄目じゃない <br> ってかJavaFXが一番真っ当なやり方 <>
+デフォルトの名無しさん<><>2014/11/01(土) 05:09:36.23 ID:qHHbwuvO<> JavaFXで2chブラウザ作ってるやつもいるよ <br> http://www.m9-www.com/ <>
+デフォルトの名無しさん<><>2014/11/01(土) 05:19:04.09 ID:/9f2fySD<> 専ブラでアフィ稼ぎでもやってんの？<a href="../test/read.cgi/tech/1404491265/24" target="_blank">&gt;&gt;24</a>でもそれの話してるやん <>
+デフォルトの名無しさん<>sage<>2014/11/01(土) 08:52:01.38 ID:NzxKzmT+<> QtかMonoでいいんじゃないの <>
+デフォルトの名無しさん<>sage<>2014/11/01(土) 19:35:57.26 ID:etXlBO/A<> 名前が金融関係のアドオンのイメージしかない <br> しかもわざわざjavaを使った間抜け方面の <br> java関係の名前ってなんで毎回胡散臭いの <>
+デフォルトの名無しさん<>sage<>2014/11/01(土) 20:17:08.85 ID:w0Vw1Jlx<> MonoでWPFができたら一番いいんだけどな・・・ <>
+デフォルトの名無しさん<>sage<>2014/11/03(月) 02:57:44.18 ID:dKGJigup<> もうQtもMonoもいらんだろ <br> Javascript + Node.js + webkitでいいだろ <>
+デフォルトの名無しさん<>sage<>2014/11/03(月) 08:55:12.90 ID:41ru1FfY<> Atom Editorがそうだっけ？成果には期待してる <>
+デフォルトの名無しさん<>sage<>2014/11/09(日) 17:07:26.24 ID:JWR8ncyO<> Akkaと連携ってできるのかな <br> 単純にFXのスレッド内でやるとフリーズするから <br> ServiceかTaskか、それともrunLaterでやれいけるのか？ <br> runLayter使うのは英語の文献見つけたけど、結論部分の英語が <br> 読めねぇから結局どーなんだよ！って感じ <>
+デフォルトの名無しさん<>sage<>2014/11/10(月) 22:50:19.18 ID:WFh7SgJF<> 楽しく組んでたんだが問題がおきた <br> ListViewでスクロールするほどメモリリークする <br> CellにImageViewとLabelおいてるだけなんだが・・・ <br> updateItemで毎回画像読んでるわけでもないし、どこでリークしてるのやら <br> 試しにメモリ少なくした仮想マシンでやってみたらOutOfMemoryでたわ <>
+デフォルトの名無しさん<>sage<>2014/11/11(火) 01:33:45.22 ID:wjsc6BqT<> JavaFX ListViewでぐぐった最初のサイトにその原因として疑わしい記述あったで。 <br> そもそもで胡散臭い動きしよるなListViewはんは・・・ <>
+デフォルトの名無しさん<><>2014/11/12(水) 14:21:30.83 ID:8LYL3KrX<> JavaFXのUIは結局WebView主体の設計に落ち着くし、そうしたほうが絶対楽 <br> ベースのノードに小分けしたWebViewオブジェクトをペタペタ貼り付けてそれぞれ独立したHTMLでデザイン作成もできるし、むしろSwingより楽で作りやすい <>
+デフォルトの名無しさん<>sage<>2014/11/12(水) 23:51:33.88 ID:U/r2NBKd<> <a href="../test/read.cgi/tech/1404491265/7" target="_blank">&gt;&gt;7</a>の縁付き文字だけど、けっきょく白文字のTextインスタンスの後ろに、 <br> 4つの黒文字Textインスタンスを上下左右に１ドットずつズラシて実現したんだけど、 <br> もっとスマートなのありますか？ <br> <br> Textクラスに影エフェクト適用すると薄めた墨汁をシャツにこぼしたみたいになる <>
+デフォルトの名無しさん<>sage<>2014/12/06(土) 11:37:42.38 ID:eMa3Kr39<> 画面間のデータの受け渡しは、どんな感じの作りが一番いいの？ <br> JDK付属のサンプルのログイン画面のやつ、何だか変な作りしてない？ <>
+デフォルトの名無しさん<>sage<>2014/12/06(土) 23:41:52.30 ID:/nyWZwJ1<> <a href="../test/read.cgi/tech/1404491265/52" target="_blank">&gt;&gt;52</a> <br> ベストじゃないかもしれないけど、自分はこうやってる <br> <br> まず、Java FX 8 と Spring 4 を統合して、子画面コントローラを <br> 親画面コントローラから DI する <br> http://javafx.steveonjava.com/javafx-in-spring-day-2/ <br> <br> 要は子画面オブジェクトの管理を Spring に任せる。 <br> たとえば、色々なルートで行ける共通子画面は、singleton スコープ <br> にしとけば、どこで @Autowired しても同じオブジェクトになる <br> <br> 親→子は、DI されている子画面コントローラのメソッドを呼び出せばいい。 <>
+53<>sage<>2014/12/06(土) 23:47:05.21 ID:/nyWZwJ1<> つづき <br> <br> 子→親は、Observer パターンを使ってる <br> http://www.techscore.com/tech/DesignPattern/Observer.html <br> <br> 親画面コントローラを Observer、子画面コントローラを Observable にして、 <br> child.addObserver(parent); しておく。 <br> 子画面コントローラ側で this.setChanged(); this.notifyObservers() を <br> 実行すると、親画面側の update(Observable o, Object arg) が呼び出される。 <br> <br> 良かったら参考にしてください。 <>
+デフォルトの名無しさん<>sage<>2014/12/07(日) 00:48:14.41 ID:F0IfGecZ<> <a href="../test/read.cgi/tech/1404491265/53" target="_blank">&gt;&gt;53</a> <br> S2Swingみたいな感じですかね？やはり、DIですか。 <br> 参照先のページ少し見てみましたけど、コントローラーとビューの関係をSpringでやる感じですよね？ <br> <br> ＭＶＣのモデルからビューへのデータ受け渡し部分って、シンプルかつ綺麗に出来たりするんでしょうか？ <br> <br> コントローラー、モデル、ビュー、どうしても何かしらお互いに依存する作りになりませんか？ <br> 一人で開発する分にはいいですけど、複数人、大勢で分業して開発するとなると、 <br> この人にビューだけの実装を、あの人にモデルだけの実装、この人にコントローラーだけの実装みたいに、きれいな分業での開発を考えるのは、無理がありますか？ <>
+デフォルトの名無しさん<><>2014/12/08(月) 04:44:47.14 ID:vDft0UX9<> <a href="../test/read.cgi/tech/1404491265/55" target="_blank">&gt;&gt;55</a> <br> MVCの要約 <br> ■コントローラクラスの仕事 <br> １．すべてのインスタンスの作成はこのコントローラで行われる。 <br> ２．各インスタンス（モデルクラス）の操作（加工・参照・削除など）を行う <br> ３．viewに操作後のインスタンスを渡す <br> ４．viewクラスから必要とされるであろうアクションメソッドを提供する <br> ５．アプリケーションの初期化処理やmainメソッド、などもここに配置する <br> <br> ■ビュークラスの仕事 <br> １．ビュークラスはインターフェースを通してコントローラクラスを保持できるようにしておく <br> ２．コントローラから渡されたインスタンスにもとずいて画面にデータ描画する <br> ３．ボタン押下等の何らかのActionごとにコントローラクラスで用意された <br> 　　アクションメソッドを実行するだけ <br> <br> ■モデルクラスの仕事 <br> １．データベース、ファイル、またはネットーワーク上からのデータ入出力機能と、そのデータの保持 <br> ２．保持しているデータ加工、参照、削除などのメソッドのみの提供を行う <br> <br> って感じで設計しておくと <br> view担当の人は渡されるインスタンスの仕様と、各アクションごとのコントローラのメソッドだけわかっていればコードが書ける <br> アプリケーション全体のことを知る必要はない。 <br> <br> モデルロジック担当の人はデータベースのテーブル構成や、ファイルデータの形式、ネットワーク上から送られてくるデータの形式のみわかっていればコードが書ける <br> 何のアプリケーションかすら知る必要がない <br> <br> なので分担が可能になる <>
+デフォルトの名無しさん<>sage<>2014/12/08(月) 06:43:56.41 ID:BxzL08Yl<> MVPだな <>
+53<>sage<>2014/12/08(月) 22:37:27.23 ID:l0FIqSWq<> <a href="../test/read.cgi/tech/1404491265/56" target="_blank">&gt;&gt;56</a> さんどうもありがとう。全くその通りです <br> <br> 補足として、Java FX の具体的な話をすると、アプリ構成は <br> <br> [FXML=Controller]--[Transaction script]--[Model] ===&gt; (REST API etc) <br> --@FXML--|--@Autowired--------------------| <br> <br> みたいな感じにしてる。 <br> それぞれ DI で連携しているので、自然と疎結合になります。 <br> Transaction 以降には JFX を持ち込みません。目安は JUnit で単体テストできるように <br> <br> そんなに大規模アプリを作っているわけじゃないけど、 <br> まぁ数人で git を挟んでうまく回ってます <>
+デフォルトの名無しさん<>sage<>2014/12/22(月) 00:33:29.19 ID:8m0zw8di<> 「HTML5に対応したWebベースのビューをアプリケーションに組み込んだり、 <br> 3Dのハードウェア・アクセラレータを活用（中略） <br> SwingのコントロールをJavaFXアプリケーションに組み込めるようになった（中略） <br> Modenaは、従来のCaspianテーマに代わり、JavaFX 8からデフォルトとなったテーマです。 <br> 最新のOSデザインとの適合性を考慮して、クリーンでエレガントなデザインを採用しています。 <br> このテーマもCSSでカスタマイズすることができます」 <br> <br> JavaFX 8──Web/3D/Embedded対応強化など、大きく進化したJava SEの標準GUIフレームワークを概観する <br> - builder by ZDNet Japan <br> http://builder.japan.zdnet.com/sp_oracle/weblogic/35058040/ <br> 2014-12-19 16:00:00 <>
+デフォルトの名無しさん<>sage<>2014/12/22(月) 08:23:43.21 ID:1JxRKZUV<> <a href="../test/read.cgi/tech/1404491265/59" target="_blank">&gt;&gt;59</a> <br> だったら、最初からSwingでいいじゃんｗｗ <>
+デフォルトの名無しさん<>sage<>2014/12/22(月) 08:28:48.62 ID:JbUWZTgk<> これほど全く魅力を感じない発表も珍しいなw <br> ずっと前からHTMLや.NETでできてることを今更… <>
+デフォルトの名無しさん<>sage<>2014/12/22(月) 10:33:17.41 ID:Kj8Ds363<> どうしてもJavaじゃないとだめってひとには朗報なんかね <>
+デフォルトの名無しさん<><>2014/12/22(月) 20:49:39.09 ID:qnnji8rr<> Javaの汎用性はハンパない <br> Javaじゃないとだめっていうよりwebアプリ勉強でJava勉強してたらクライアント系も結構作り込めるしAndroidもいけるし最高だわって。感じ <>
+デフォルトの名無しさん<>sage<>2014/12/23(火) 00:00:00.79 ID:DDCr3b13<> 俺はswingしらないからfxでいいかって感じで触ってる <>
+デフォルトの名無しさん<>sage<>2014/12/23(火) 01:01:02.64 ID:W3IZ0f+k<> Java,JVMに関係する言語も多い <br> <br> Scala,Python,Ruby,Processing <>
+デフォルトの名無しさん<>sage<>2015/01/04(日) 20:20:39.99 ID:yv1tIfWd<> androidでデスクトップアプリを作れるようにすればいいのに。 <>
+デフォルトの名無しさん<>sage<>2015/01/20(火) 15:49:23.88 ID:PtgproT1<> 縦書きの文章を巻物みたいに右から左にスクロールさせるためにHBoxにLabelを貼りそのHBoxをScrollPaneに放り込んで <br> scrollPane.setHvalue(scrollPane.getHmax()); <br> としてやれば画面初期表示時にスクロールバーが右端に行くと思ったらできませんでした <br> どなたか解決方法わかる方お教え願えませんか？ <>
+デフォルトの名無しさん<>sage<>2015/02/12(木) 16:09:37.11 ID:P3YJ5hM/<> JavaFXでモーダルウインドウを作成した際に、そのウインドウをタスクバーに表示しないようにしたいのですが、どうすれば良いのでしょうか？ <>
+デフォルトの名無しさん<>sage<>2015/02/13(金) 03:07:04.80 ID:98q9vW+g<> javaでオフラインのゲーム作るとしたら <br> fxで開発したほうがいいのかねえ <br> <br> 難しいねえ <>
+デフォルトの名無しさん<>sage<>2015/02/26(木) 08:23:34.90 ID:hX7Dvl3+<> どうもJavaFXは実装の詳細がかなり隠蔽されている印象でまどろっこしく感じた。 <br> prism描画エンジン自体を直にたたきたい場合はどうすればいいのだろう？ <br> SwingのGraphics2Dみたいな、描画はこのクラスが受け持っています、 <br> みたいのはないのだろうか？ <>
+デフォルトの名無しさん<>sage<>2015/02/26(木) 08:35:40.90 ID:Zl1401DB<> それが嫌ならJavaなんか使うな <>
+デフォルトの名無しさん<>sage<>2015/02/26(木) 12:14:29.90 ID:qy6PVI1X<> Prismのソース見たけどいかにも内部だけで使う用の薄くて雑なラッパーで、 <br> とてもじゃないけどパブリックAPIとして公開できるような代物じゃないね <>
+デフォルトの名無しさん<>sage<>2015/02/27(金) 12:10:38.03 ID:QIUGNdFR<> ３Ｄはハードウェアアクセラレーションが効かない場合は <br> 自前のアルゴリズムで描画するのかな？ <br> それともそんな機能はついていない？ <>
+デフォルトの名無しさん<>sage<>2015/02/27(金) 12:41:43.81 ID:EZLwV1tk<> 3D+ソフトウェアレンダリングはサポートされてないし予定もないんだとさ <br> RORA(笑) <>
+デフォルトの名無しさん<><>2015/03/01(日) 21:59:56.08 ID:YPGv4zkT<> Swingに、今風の丸っこいスキンを付ければそれで良かったのに…。 <>
+デフォルトの名無しさん<>sage<>2015/03/02(月) 00:01:51.78 ID:q0P+yjDk<> windows mobileにしろ、携帯javaアプリ全盛期にしろ、舵取りに大失敗したツケはでかいのさ。 <>
+デフォルトの名無しさん<>sage<>2015/03/03(火) 03:50:17.22 ID:gJ8ospYO<> ２DでLook And Feelを洗練してくれればそれで良かったのになぁ <br> 3DやるならFXの方向性でいいんだけど、３D必要なクライアントアプリって普通の業務じゃあ無いよな <br> ゲームに特化するならそれはそれで需要ありそうだが <>
+デフォルトの名無しさん<>sage<>2015/03/03(火) 08:08:08.21 ID:dNmnY3Tb<> <a href="../test/read.cgi/tech/1404491265/77" target="_blank">&gt;&gt;77</a> <br> ハッキリ言って、swing以外、使う気にもなれないゴミ <br> <br> 事実殆ど使われてもいない。 <br> 空気未満の存在だわ、FXなんて。 <>
+デフォルトの名無しさん<>sage<>2015/03/03(火) 16:10:17.93 ID:68X/j5zu<> swingですら製品として一切のバグが無くても苦情が来るレベル <>
+デフォルトの名無しさん<><>2015/03/27(金) 20:28:26.39 ID:WapOSE77<> 最早無償のWindowBuilderでswtが現状通りこの先も作られ続けてる予感が。 <>
+デフォルトの名無しさん<>sage<>2015/03/30(月) 19:28:32.52 ID:ws7CA7Ye<> 音楽制作畑のソフトでFinaleやLiveっていう <br> 有名なやつはどうやらJAVAでSwing?FX？で作られてるっぽい。 <br> アプデするとJAVAのインストール要求されたし入力エラーのMsgがJAVAまんまのExcepionでわろた <>
+デフォルトの名無しさん<><>2015/04/16(木) 10:38:29.30 ID:KZ0eqbTB<> どなたか助けてください。 <br> JavaFX8のWebViewにて大量の画像があるHTMLを読み込むと、一度にページ全体分の画像が読み込まれ、メモリを圧迫します。 <br> ※全て異なる画像ファイルの場合 <br> WebkitでもChromeは可視領域の画像を随時読み込み、キャッシュしていないように思います。 <br> WebViewだと全体がキャッシュされちゃうのかな。 <br> 初歩的やスレ違いならすみません。 <>
+デフォルトの名無しさん<>sage<>2015/04/16(木) 11:47:22.99 ID:PkMvowGQ<> 標準なんだからこれからはJavaFXを使って行ったほうがいいっていうのが初心者の俺の意見なんだけどどうしてJavaFXはだめなんですか？ <br> ちなみにパソコンのスペックが低いのでeclipseが重すぎて今は勉強してない <>
+デフォルトの名無しさん<>sage<>2015/04/16(木) 20:00:17.46 ID:w2CLpnfg<> <a href="../test/read.cgi/tech/1404491265/82" target="_blank">&gt;&gt;82</a> <br> 低スペノートでchrome使ってるけどまとめサイト見る時画像がたくさんあると固まるので違うと思う <>
+デフォルトの名無しさん<>sage<>2015/04/16(木) 22:27:59.90 ID:n/Sv94h6<> <a href="../test/read.cgi/tech/1404491265/83" target="_blank">&gt;&gt;83</a> <br> JavaFXがどうというより、JavaでGUI自体もう絶滅に近いから <>
+デフォルトの名無しさん<>sage<>2015/04/17(金) 19:48:15.15 ID:TBjJovNo<> JavaFX Scene Builder 1.1 <br> の頃にちょこちょこ触って今後のバージョンアップに期待と放置してたら、 <br> いつのまにかOracleからのバイナリ配布無くなってるのね <br> オープンソースに任せたから欲しけりゃ自分でビルドしーやw <br> ってか？ <br> OracleもうJavaFXに飽きちゃったん？ <>
+デフォルトの名無しさん<>sage<>2015/04/17(金) 21:42:26.03 ID:vRmsAur5<> FXはもとから正式にOracleとライセンス契約してる法人向けという色が強い <>
+デフォルトの名無しさん<>sage<>2015/04/18(土) 00:19:16.39 ID:g4wbtPHm<> <a href="../test/read.cgi/tech/1404491265/82" target="_blank">&gt;&gt;82</a> <br> まだ、実装もこなれてない可能性が。 <br> webviewだとすると、画面上に表示されてない部分をjsから操作して隠すstyle=&quot;display:none;&quot;ことはできるのかな？ <>
+デフォルトの名無しさん<>sage<>2015/04/19(日) 11:46:19.34 ID:P2fhL6qH<> &lt;?import javafx.scene.shape.*?&gt; <br> &lt;?import javafx.scene.paint.*?&gt; <br> &lt;?import javafx.geometry.*?&gt; <br> <br> &lt;Box fx:id=&quot;box&quot; depth=&quot;60&quot; height=&quot;50&quot; layoutX=&quot;214.0&quot; layoutY=&quot;158.0&quot; width=&quot;50&quot;&gt; <br> &lt;material&gt; <br> &lt;PhongMaterial diffuseColor=&quot;red&quot; /&gt; <br> &lt;/material&gt; <br> &lt;rotationAxis&gt;&lt;Point3D x=&quot;1.0&quot; y=&quot;1.0&quot; z=&quot;0.0&quot;/&gt;&lt;/rotationAxis&gt; <br> &lt;rotate&gt;30.0&lt;/rotate&gt; <br> &lt;/Box&gt; <br> <br> こんな3DシェイプのBoxがありまして... <>
+デフォルトの名無しさん<>sage<>2015/04/19(日) 11:51:20.46 ID:P2fhL6qH<> Parent fxml = FXMLLoader.load(getClass().getResource(&quot;FXMLDocument.fxml&quot;)); <br> Scene scene = new Scene(fxml); <br> // Scene scene = new Scene(fxml, 600,600, true, SceneAntialiasing.BALANCED); <br> stage.setScene(scene); <br> stage.show(); <br> <br> そのままだと Boxの輪郭がジャギーなので、 <br> Scene生成時に SceneAntialiasing.BALANCED を指定してみたのですが、 <br> それをすると ButtonやListViewやらが反応しなくなってしまいます。 <br> 3DのShapeにアンチエイリアスがかかるようにするにはどうするのが正解なんでしょうか？ <>
+デフォルトの名無しさん<>90<>2015/04/19(日) 18:40:38.25 ID:P2fhL6qH<> 3Dシェイプ組に関しては fxmlを分離してみたら表面上は期待通りになりました。 <br> ただ、Controllerクラスはfxml毎に生成されるので <br> classのstaticフィールドを介してコントロールしてみたりと、ちょっと気持ち悪い感じです。 <br> <br> // class JavaFXApplication <br> public void start(Stage stage) throws Exception { <br> SubScene sub1 = new SubScene( <br> (Parent) FXMLLoader.load(getClass().getResource(&quot;FXMLDocument1.fxml&quot;)), <br> 600, 600, true, SceneAntialiasing.BALANCED); <br> Parent sub2 = FXMLLoader.load(getClass().getResource(&quot;FXMLDocument2.fxml&quot;)); <br> <br> Group root = new Group(); <br> root.getChildren().addAll(sub1, sub2); <br> Scene scene = new Scene(root,600,600); <br> stage.setScene(scene); <br> stage.show(); <br> } <br> <br> // class FXMLDocumentController ... <br> @FXML <br> private Box box; <br> static Box _box; <br> ... <br> <br> public void initialize(URL url, ResourceBundle rb) { <br> System.out.println(&quot;Hi: &quot; + this.toString() ); <br> if (label!=null) _label = label; <br> if (box!=null) _box = box; <br> } <>
+デフォルトの名無しさん<>sage<>2015/04/20(月) 02:00:29.72 ID:9Ogc4IaC<> &gt; ただ、Controllerクラスはfxml毎に生成されるので～ <br> この件に関しては解決しました。 <br> <br> FXMLDocumentController controller = new FXMLDocumentController(); <br> FXMLLoader loader; <br> loader = new FXMLLoader(getClass().getResource(&quot;FXMLDocument1.fxml&quot;)); <br> loader.setController(controller); <br> SubScene sub1 = new SubScene(loader.load(), 600, 600, true, SceneAntialiasing.BALANCED); <br> <br> loader = new FXMLLoader(getClass().getResource(&quot;FXMLDocument2.fxml&quot;)); <br> loader.setController(controller); <br> Parent sub2 = loader.load(); <br> <br> <br> この場合、fxml側では fx:controller 属性を指定してはいけないとの事 <>
+デフォルトの名無しさん<>sage<>2015/05/18(月) 16:15:54.22 ID:ODeJ8ObC<> ChromeのNPAPIサポートが終わったらJavaFXも終了？ <>
+デフォルトの名無しさん<>sage<>2015/05/18(月) 20:11:51.06 ID:4bXcOge2<> そもそも始まったことがないだろ <br> Oracleに大金を献上してる天上界の方々が組み込みに使ってるくらいで <>
+デフォルトの名無しさん<>sage<>2015/07/22(水) 18:41:29.94 ID:HlNO1OSu<> しかし個人レベルなら決して使い勝手悪くはないと思うんだよな <>
+デフォルトの名無しさん<>sage<>2015/07/23(木) 08:20:34.05 ID:0SALeEZV<> 俺もそう思う <>
+デフォルトの名無しさん<><>2015/08/18(火) 13:19:37.94 ID:g/qLQ8af<> ボタン押して、処理を実行する場合 <br> 処理が終わるまでボタンを使用不可にしたいけどどうやって書くの？ <>
+デフォルトの名無しさん<>sage<>2015/08/18(火) 17:22:51.64 ID:wAgTK3R7<> <a href="../test/read.cgi/tech/1404491265/97" target="_blank">&gt;&gt;97</a> <br> onActionでButtonをdisableにして処理スレッドを呼び出して、 <br> 処理の最後でイベントなりrunLaterなりでButtonをenableにすれば良いのではなく？ <>
+デフォルトの名無しさん<><>2015/08/18(火) 23:07:21.10 ID:g/qLQ8af<> <a href="../test/read.cgi/tech/1404491265/98" target="_blank">&gt;&gt;98</a> <br> ありがとう。できました！このような感じに書きました。 <br> private void ボタン_onClick(final MouseEvent aEvent) { <br> ボタン.setDisable(true); <br> Task&lt;Void&gt; task = new Task&lt;Void&gt;() { <br> @Override <br> public Void call() { <br> ボタンの処理(); <br> ボタン.setDisable(false); <br> return null; <br> } <br> }; <br> Executor executor = Executors.newSingleThreadExecutor(); <br> executor.execute(task); <br> } <>
+デフォルトの名無しさん<>sage<>2015/09/05(土) 09:06:37.00 ID:XHbh3OBS<> Stageが最大化したことを取得するイベントが見当たらなかったのですが、どのように実装すれば良いのでしょうか？ <>
+デフォルトの名無しさん<><>2015/09/08(火) 17:48:08.43 ID:VZxIJmd1<> fxだとwebブラウザ作れるって言うから、マジかと思って今作ってる <br> マジで作れてるからfxって神だと思ってるよ <br> タブの入れ替えが出来ないっぽいのが難点だ <>
+デフォルトの名無しさん<>sage<>2015/09/08(火) 22:11:15.38 ID:sosFruyq<> そんなもん.NETでもQtでも昔から作れるよ <br> Swingがゴミすぎただけ <>
+デフォルトの名無しさん<>sage<>2015/09/08(火) 22:14:40.96 ID:oK5RMRHa<> へー <>
+デフォルトの名無しさん<>sage<>2015/09/08(火) 22:28:33.26 ID:VZxIJmd1<> swingで作れたら良かったのにと思ってる <br> 何とかタブブラウザっぽくなってきたけど検索が問題のようだ <br> マウスジェスチャーは別ツールに頼る <>
+デフォルトの名無しさん<><>2015/09/10(木) 19:33:53.32 ID:q6SXiyXu<> 今はSwingからFXのコンポーネント使えた筈… <>
+デフォルトの名無しさん<>sage<>2015/09/10(木) 19:49:54.20 ID:yxh9znUn<> FXって8で終わりそうなの？ <br> 開発続くなら触るが・・・ <>
+デフォルトの名無しさん<>sage<>2015/09/10(木) 21:18:52.74 ID:5OHKsqUt<> レンダリングエンジンもってるのか <>
+デフォルトの名無しさん<>sage<>2015/09/10(木) 22:31:26.96 ID:NaQAaAQJ<> JREの一般提供がいつ打ち切られてもおかしくないレベルで <br> クライアントJavaは消滅しつつある <>
+デフォルトの名無しさん<>sage<>2015/09/10(木) 22:34:45.49 ID:etHqWsfS<> MSの工作員乙 <>
+デフォルトの名無しさん<>sage<>2015/09/10(木) 22:37:34.49 ID:VXtvD0Vx<> 残念ながらクライアントJavaを一番葬りたがってるのは他でもないオラクル様だよ <>
+デフォルトの名無しさん<>sage<>2015/09/11(金) 00:16:15.14 ID:c63AsPh3<> flashはセキュリティ面で、silverlightは新規開発終了で終わりが近づいて、javafx登場する間も無くhtml5に変わってくタイミングなのかね。 <br> java appletはセキュリティ強化とfxの進化も続いて出番あるかなと思ったけど、applet自体がセキュリティ強化で既存のappletが動かなくなって馴染みがなくなってる感じがする。 <br> せめてホワイトリストで動けばと思うのだけど、証明書の問題が回避出来ないようで。 <>
+デフォルトの名無しさん<>sage<>2015/09/16(水) 05:21:49.92 ID:5bHXrW5J<> Fxでタブブラウザを作ってます <br> 「ハイパーリンクをホイールクリックで新規タブにページをロード」が実装できないです <br> 色々参考にしながら、ハイパーリンクのDOM取得してgetAttribute(&quot;href&quot;)で <br> href属性を見るようにしたのですが、普通のサイトは取れてもgoogleの次へリンクとかはnullが取れてしまいます <br> WebViewでハイパーリンクから、正しい遷移先URLを取得する方法ってありますかね？ <>
+デフォルトの名無しさん<>sage<>2015/09/18(金) 14:34:13.76 ID:K0k1zzGm<> Scene Builderで多角形を作る方法が判りません。 <br> デフォルトで三角形ができますが、そっからそういう操作で角を増やすのかが謎です。 <br> 知っているかた教えてください。 <>
+デフォルトの名無しさん<>sage<>2015/09/18(金) 14:35:00.53 ID:K0k1zzGm<> ×そっからそういう操作 <br> ○そっからどういう操作 <>
+デフォルトの名無しさん<>sage<>2015/10/05(月) 16:31:34.39 ID:ABZW4IbC<> JDKを8u31から8u40に変えたらcanUndoメソッドとcanRedoメソッドが使えなくなった。 <>
+デフォルトの名無しさん<>sage<>2015/10/05(月) 17:31:27.31 ID:ABZW4IbC<> ちなみにJavaFXでのこと。 <>
+デフォルトの名無しさん<>sage<>2015/10/05(月) 18:26:21.89 ID:ABZW4IbC<> ここ、JavaFXのスレッドだったか。 <>
+デフォルトの名無しさん<>sage<>2015/10/05(月) 20:13:50.49 ID:8GS14qep<> FXMLで簡単に似た目変えれるから好きなんだけどなぁ <br> ほんと趣味の領域だわ・・・ <>
+デフォルトの名無しさん<><>2015/10/05(月) 23:14:39.90 ID:olU7fFY4<> 各種要因でCanvasの再描画を行っていて、 <br> これらがいっぺんに発生したときには、 <br> 再描画をまとめてやりたいんだけど、 <br> アイドル時間に呼ばれる処理って定義できるんですか？ <>
+デフォルトの名無しさん<><>2015/10/20(火) 08:33:29.05 ID:xYr22qd8<> 少しずつだけど日本語のドキュメントが増えてるね。 <br> <br> ttp://docs.oracle.com/javase/jp/8/javafx/api/index.html <br> ttp://docs.oracle.com/javase/jp/8/javafx/get-started-tutorial/ <br> ttp://docs.oracle.com/javase/jp/8/javafx/user-interface-tutorial/ <br> ttp://docs.oracle.com/javase/jp/8/javafx/fxml-tutorial/ <br> ttp://docs.oracle.com/javase/jp/8/javafx/properties-binding-tutorial/ <br> ttp://docs.oracle.com/javase/jp/8/javafx/events-tutorial/ <br> ttp://docs.oracle.com/javase/jp/8/javafx/graphics-tutorial/ <>
+デフォルトの名無しさん<>sage<>2015/10/20(火) 19:20:53.48 ID:oM+8zZ4h<> お <br> 見ながらやってみるか <>
+デフォルトの名無しさん<>sage<>2015/10/26(月) 18:18:21.82 ID:dhOM9I0V<> ListViewをstaticで定義できないんだけど他のクラスからいじりたい場合どうすればいいの？ <>
+デフォルトの名無しさん<>sage<>2015/10/30(金) 13:13:19.00 ID:hAaoa/hc<> もっと早く出てたら色々状況も変わっていたのかもしれないけど <br> 後出しだから出せたものだろうからなあ <>
+デフォルトの名無しさん<><>2015/11/07(土) 22:42:58.14 ID:j9yLVDix<> ListViewメモリ食い過ぎ <>
+デフォルトの名無しさん<>sage<>2015/11/21(土) 05:34:06.30 ID:1N1F4ORO<> JavaFX propertyと組み込み関数インタフェースの相性はなかなかいいな <br> XY座標を取るBiPredicateをチェーンさせてフィルタとしてプロパティに設定とか別の言語触ってる感覚 <>
+デフォルトの名無しさん<><>2015/11/24(火) 17:51:24.39 ID:E6WyfuLQ<> 古いGPUだと実行できないようなんですが、GPUのチェックを回避する（？）とかして実行する方法はないでしょうか。 <>
+デフォルトの名無しさん<><>2015/11/30(月) 15:26:00.55 ID:XdLPFdTm<> テキストを印刷する時にフォントを強制的にパス化する方法ってあるかな？ <br> システムにインストールされていないフォントを印刷する場合はこれをやってくれるのだけど <br> システムにインストールされているフォントでも同じようにパス化してくれると可搬性が高くて助かるのだけど <>
+デフォルトの名無しさん<>sage<>2015/11/30(月) 19:33:29.31 ID:XdLPFdTm<> jfxtrans-labsに以下の一行を発見して無事解決。地味に凄いなJavaFX <br> <br> Path path = (Path) Shape.subtract(text, new Rectangle(0, 0)); <>
+デフォルトの名無しさん<><>2015/12/14(月) 00:40:04.08 ID:TBvoHfDM<> 俺が始めたからアゲ <>
+デフォルトの名無しさん<>sage<>2015/12/15(火) 22:28:36.32 ID:7A5/Ndls<> よし <br> 盛り上げてくれ <>
+デフォルトの名無しさん<>sage<>2015/12/15(火) 22:38:20.68 ID:QtUVTFLl<> よし、ハゲてくれ <>
+デフォルトの名無しさん<>sage<>2016/01/10(日) 09:57:50.79 ID:YJX3CxHj<> オラクルってなんで Scene Builder のインストーラ配布やめたの？ <br> なんかソースコードで配布してるみたいだが <>
+デフォルトの名無しさん<>sage<>2016/01/10(日) 10:11:21.10 ID:jKn5h2Is<> 誰も使わないからでしょ <br> フェードアウトさせていきたいんだよ <>
+デフォルトの名無しさん<><>2016/01/10(日) 12:14:14.26 ID:e/6zdqSA<> <a href="../test/read.cgi/tech/1404491265/126" target="_blank">&gt;&gt;126</a> <br> -Dprism.order=j2d <>
+デフォルトの名無しさん<>sage<>2016/01/10(日) 12:59:13.04 ID:1ZDRgoMO<> FXMLのリファレンスが無い時点でやる気ないの見え見え。 <br> もうGUIはHTMLで、クライアントをFXのブラウザコントロールで作ろうと思ったら、ブラウザコントロール自体が旧式だったでござる。 <>
+デフォルトの名無しさん<>sage<>2016/01/10(日) 17:36:25.59 ID:YJX3CxHj<> WebKit って旧式なん？ <br> 新式になるためには何サポートしてればいいの？ <>
+デフォルトの名無しさん<>sage<>2016/02/23(火) 23:31:24.22 ID:MBXrRoTm<> MediaPlayerのチュートリアル試してみたんだが、最後まで再生した後の挙動が変だね <br> <br> 再生終わった状態で再生ボタン押しても反応なし <br> スライダー少し戻してから再生ボタン押すと一時停止して <br> 更に二度押すと先頭から再生を始める <br> http://docs.oracle.com/javase/8/javafx/media-tutorial/playercontrol.htm <>
+デフォルトの名無しさん<>sage<>2016/06/12(日) 19:13:58.23 ID:PA50JpJO<> TreeViewでcellFactoryをnullに設定した時の既定のTreeCellの定義はどこで確認すればいいでしょうか？ <br> APIは追いきれなかったのですが、単純にTreeCell&lt;T&gt;()を使用している訳では無いようなのです <br> 解りづらい質問で申し訳ないです <>
+デフォルトの名無しさん<>sage<>2016/06/13(月) 21:34:59.89 ID:xZcBDkZ+<> java dayの資料見てみたけど <br> まだjava fxやる気はあるんだね <>
+デフォルトの名無しさん<>sage<>2016/06/14(火) 21:23:30.06 ID:9Cxqkr8S<> tooltipが表示されたところにちょうどカーソルあったら表示と非表示繰り返してしまいます <br> 回避方法ありませんか？ <>
+デフォルトの名無しさん<>sage<>2016/07/03(日) 22:26:35.55 ID:AzA8asek<> まじ使ってるひといなそうだな・・・ <>
+デフォルトの名無しさん<>sage<>2016/07/08(金) 07:30:13.22 ID:jZEWBpdO<> 開発終了しないのが不思議なレベル <br> オラクルのSI部門や大口顧客が使ってるんだろうな <>
+デフォルトの名無しさん<>sage<>2016/07/09(土) 17:56:01.05 ID:amqmKLxV<> <a href="../test/read.cgi/tech/1404491265/142" rel="noopener noreferrer" target="_blank">&gt;&gt;142</a> <br> 国際宇宙ステーションの管理ソフトは <br> JavaFXらしい <>
+名無しさん＠そうだ選挙に行こう！ Go to vote!<>sage<>2016/07/10(日) 13:23:08.12 ID:Pu5zhpFc<> 飛行機がJavaなんか使ってたら、その飛行機には絶対に乗らないけどな <br> それとも、業務向けのJava環境とか作って内緒で使ってるのかな <>
+名無しさん＠そうだ選挙に行こう！ Go to vote!<><>2016/07/10(日) 17:01:14.16 ID:Pg8qYW3c<> 何れ飛行機も計器類が全部まとめられてタブレットに表示されてそれで操縦するようになるんだろうなあ <>
+名無しさん＠そうだ選挙に行こう！ Go to vote!<>sage<>2016/07/10(日) 19:35:44.78 ID:vClNR34Z<> そして飛行機に乗る時にタブレットやケータイを全員取り上げられる <>
+デフォルトの名無しさん<>sage<>2016/07/17(日) 21:18:54.43 ID:35UaP9b8<> <a href="../test/read.cgi/tech/1404491265/144" rel="noopener noreferrer" target="_blank">&gt;&gt;144</a> <br> スペースシャトルの航空管理システムもJavaだぞ <>
+デフォルトの名無しさん<>sage<>2016/07/25(月) 21:18:13.23 ID:Oy0UZRX6<> <a href="../test/read.cgi/tech/1404491265/147" rel="noopener noreferrer" target="_blank">&gt;&gt;147</a> <br> OracleのJDKじゃなくて、何千万円もするようなjava開発環境つかってるんだろうな… <>
+デフォルトの名無しさん<>sage<>2016/08/20(土) 23:54:37.12 ID:caLOsDcn<> <a href="../test/read.cgi/tech/1404491265/148" rel="noopener noreferrer" target="_blank">&gt;&gt;148</a> <br> ところがどっこいOracleのJDKなんだよなぁ・・・ <>
+デフォルトの名無しさん<>sage<>2016/08/22(月) 02:10:07.72 ID:KXXznEJ6<> 外からハッキングされて落ちるわけだ <>
+デフォルトの名無しさん<>sage<>2016/10/01(土) 17:20:54.04 ID:ptS7sjp8<> <a href="../test/read.cgi/tech/1404491265/132" rel="noopener noreferrer" target="_blank">&gt;&gt;132</a> <br> 超亀だけどアーカイブの中にあるな <br> <br> リンクはちゃんと直して欲しい <>
+デフォルトの名無しさん<>sage<>2016/10/01(土) 22:13:08.40 ID:ptS7sjp8<> 現在はここです。念のため <br> http://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html <>
+デフォルトの名無しさん<>sage<>2016/10/02(日) 07:53:45.10 ID:M4e1p4R9<> 最新版のビルドはここか <br> http://gluonhq.com/labs/scene-builder/ <>
+デフォルトの名無しさん<>sage<>2016/10/02(日) 08:15:35.10 ID:M4e1p4R9<> 最新版落としてみたけどどうも挙動が変だな <br> アーカイブの2.0に戻した <>
+デフォルトの名無しさん<>sage<>2017/01/14(土) 21:21:51.36 ID:Z4YPx582<> TextFieldでアンドゥがキャレットの移動まで記録しちゃうんだけど、 <br> 文字列の更新だけ記録させることって出来ますか？ <>
+デフォルトの名無しさん<>sage<>2017/01/14(土) 21:26:31.37 ID:Z4YPx582<> Ctrl+ZやCtrl+Yを押したときに、文字列が更新されるまでundo()やredo()を繰り返し呼ぶとかやってみたけど、 <br> 適当にアンドゥ→キャレット移動→リドゥしようとして出来ずに(´・ω・｀) <>
+デフォルトの名無しさん<><>2017/01/18(水) 10:48:47.25 ID:A+XqqRn6<> ある程度使ってみたけどよく出来てると思う <br> ウインドウもかなり低レベルで描いてて本気を感じる <br> <br> <a href="../test/read.cgi/tech/1404491265/156" rel="noopener noreferrer" target="_blank">&gt;&gt;156</a> <br> アンドゥ実装あるけど貧弱だよな <br> 継承もできないし <>
+デフォルトの名無しさん<>sage<>2017/01/20(金) 22:27:38.74 ID:YYVwGK9Y<> Linuxでも動かしたいためにJavaFXやってみるわ <>
+デフォルトの名無しさん<><>2017/01/21(土) 15:51:04.86 ID:IpoNsIX7<> 久しぶりにTornadoFXのサイト見たらドキュメント含めて以前より充実してたので、 <br> IntelliJでサンプル動かしてみたけど、これすごくいいね。 <br> scalafxからこっちに乗り換えることにした。 <>
+デフォルトの名無しさん<>sage<>2017/01/21(土) 17:14:31.53 ID:LFvCw0cQ<> 宣伝乙 <>
+デフォルトの名無しさん<>sage<>2017/01/24(火) 01:15:21.00 ID:LaS/fHVF<> いまいち流行らないね <>
+デフォルトの名無しさん<>sage<>2017/01/24(火) 14:04:28.78 ID:Hze+AB3k<> そこそこ好きなんだけどな <>
+デフォルトの名無しさん<>sage<>2017/01/27(金) 19:09:28.14 ID:9J/zbc1M<> みんなどうやってテストしてる？ <>

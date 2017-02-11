@@ -53,3 +53,6 @@
 ;;左右に分割
 (setq w (selected-window))
 (setq w2 (split-window w nil t))
+
+;; スクロールバーを非表示
+(scroll-bar-mode 0)
