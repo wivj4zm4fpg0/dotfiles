@@ -1,4 +1,4 @@
-modified = Thu, 09 Feb 2017 21:45:31 GMT
+modified = Sun, 12 Feb 2017 04:45:28 GMT
 modified_localrule = Wed, 13 Apr 2016 09:51:07 GMT
 modified_setting = Tue, 26 Apr 2016 06:46:00 GMT
 view_sort_column = -1
@@ -25,6 +25,6 @@ write_name =
 write_mail = 
 samba_sec = 0
 live_sec = 0
-last_access_time = 1486676832
-status = 16
+last_access_time = 1486874741
+status = 0
 max_res = 1000
