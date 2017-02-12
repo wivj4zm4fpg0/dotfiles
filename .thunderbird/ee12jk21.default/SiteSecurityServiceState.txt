@@ -1,0 +1,7 @@
+www.google-analytics.com:HSTS	0	17159	1493429783658,1,1
+services.addons.mozilla.org:HSTS	10	17191	1516844546371,1,0
+services.addons.mozilla.org:HPKP	10	17191	1490492546372,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
+account.jetbrains.com:HSTS	0	17174	1515410460416,1,1
+versioncheck-bg.addons.mozilla.org:HPKP	10	17191	1490492547812,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
+www.mozilla.org:HSTS	0	17159	1514079383078,1,0
+www.gandi.net:HSTS	0	17159	1498311145427,1,0

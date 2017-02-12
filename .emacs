@@ -5,7 +5,11 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["black" "#d55e00" "#009e73" "#f8ec59" "#0072b2" "#cc79a7" "#56b4e9" "white"])
- '(custom-enabled-themes (quote (deeper-blue)))
+ '(custom-enabled-themes (quote (molokai)))
+ '(custom-safe-themes
+   (quote
+    ("c3c0a3702e1d6c0373a0f6a557788dfd49ec9e66e753fb24493579859c8e95ab" default)))
+ '(flycheck-display-errors-function (function flycheck-pos-tip-error-messages))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -56,3 +60,8 @@
 
 ;; スクロールバーを非表示
 (scroll-bar-mode 0)
+
+;; 外部カラーテーマを読み込む(molokai)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(load-theme 'molokai t)
+(enable-theme 'molokai)
