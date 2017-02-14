@@ -126,3 +126,37 @@ login:Penguin<>sage<>2017/02/11(土) 14:17:42.14 ID:psouxMmy<> ググると同じチップ
 login:Penguin<><>2017/02/11(土) 14:44:05.26 ID:UYah8kJL<> アドバイスありがとうございます <br> <br> 致命的な不具合だったらどうしようもないですね・・・ <br> xfceを入れて延命させようと <br> 思っていたのですが・・・hweカーネルってのはまったく聞いたことが <br> ないのですが、それだと何とかなるかもだったら試してみる価値あるかも <br> ですね・・・ <br> <br> 処分するのもなんで、どうしようか迷います・・・ｗ <br> とりあえずChromium使いたいってだけなんですがｗ <>
 login:Penguin<>sage<>2017/02/12(日) 01:40:22.84 ID:c7hh6iFw<> <a href="../test/read.cgi/linux/1485145420/126" rel="noopener noreferrer" target="_blank">&gt;&gt;126</a> <br> HWEカーネルって、リリース後の新しいバージョンで動作が保証されたカーネルのことね <br> バニラは上手く動作する保証ないから。 <br> http://gihyo.jp/admin/clip/01/ubuntu-topics/201612/02 <br> <br> 要はインテルのドライバはカーネル同梱だから、改善を期待して新しいカーネル試したら？って言いたかった <br> まあでも、今回は古いデバイスだから期待できないとおもうけど <>
 login:Penguin<>sage<>2017/02/12(日) 07:46:44.10 ID:imbNxust<> <a href="../test/read.cgi/linux/1485145420/111" rel="noopener noreferrer" target="_blank">&gt;&gt;111</a> <br> 普通に動いてるけどh264のエンコードはダメだった <br> まあエンコードはffmpegでコマンドラインから出来るしh265も作れるからそれで十分なんだけどね <>
+login:Penguin<>sage<>2017/02/12(日) 14:58:10.48 ID:TGmP7W5j<> そういえばWineってインストール不要のexe使えるん？ <>
+login:Penguin<>sage<>2017/02/12(日) 15:52:08.77 ID:5Q3qkWxV<> 使える <br> ファイルマネージャーからダブルクリックもしくは右クリのWine云々で起動できる <>
+login:Penguin<>sage<>2017/02/12(日) 16:20:51.78 ID:OFzKAq9Z<> マジか、入れてみるわ <>
+login:Penguin<>sage<>2017/02/12(日) 16:22:26.72 ID:/8vGq+dJ<> まあ半分くらいは動かないから、ダメ元でな <br> これでも結構動くようになったから <>
+login:Penguin<>sage<>2017/02/12(日) 20:47:20.87 ID:DdqPCLxn<> aviutl <br> huffyuv <br> sound engine <br> DVDshrink <br> TEMPEGEnc <br> AdobeAIR <br> ラベル屋さん9 <br> craving explorer <br> dvddecrypter <br> とりあえずこの辺はMint18+wineで動くのを確認済み <>
+login:Penguin<>sage<>2017/02/13(月) 12:10:16.94 ID:VuOkgRYu<> MSXマガジン永久保存版付録のエミュレータも動いた <>
+login:Penguin<>sage<>2017/02/13(月) 15:03:27.85 ID:IkqWX5Yc<> WinrarとImgburin以外にも動くものなんだな <br> あとLilithも動いた記憶がある <>
+login:Penguin<><>2017/02/13(月) 19:52:42.90 ID:uotOdy9I<> wine wine 言うなら <br> windows でやってればいいんじゃない？ <br> なんで中途半端なwineにこだわるかね、？？ <>
+login:Penguin<>sage<>2017/02/13(月) 19:53:51.78 ID:uuAcBWbB<> <a href="../test/read.cgi/linux/1485145420/136" rel="noopener noreferrer" target="_blank">&gt;&gt;136</a> <br> ライセンスの問題やろ <>
+login:Penguin<>sage<>2017/02/13(月) 20:06:33.86 ID:/iApahi7<> <a href="../test/read.cgi/linux/1485145420/136" rel="noopener noreferrer" target="_blank">&gt;&gt;136</a> <br> あなたはwine入れてないの？ <>
+login:Penguin<>sage<>2017/02/13(月) 20:26:41.08 ID:e9cwuZri<> ワイン、滅多に動かん <>
+login:Penguin<>sage<>2017/02/13(月) 20:30:51.49 ID:ALZdwybc<> Jane XenoとPhotoShopでどうしても必要 <>
+login:Penguin<>sage<>2017/02/13(月) 20:38:41.24 ID:IkqWX5Yc<> <a href="../test/read.cgi/linux/1485145420/136" rel="noopener noreferrer" target="_blank">&gt;&gt;136</a> <br> 俺の場合Win10が入らない古いノートPCの延命にLinuxを使っているんだ <br> Linuxアプリだけでは力の及ばない部分をWinアプリで補う <br> 個人ユーザーなら極々当たり前の使い方じゃないかね？ <>
+login:Penguin<>sage<>2017/02/13(月) 20:45:58.03 ID:CVHwrInJ<> 計算高い <>
+login:Penguin<>sage<>2017/02/13(月) 20:57:12.44 ID:lvVZveZ9<> ゴミを延命（笑）とか何が当たり前だよ <>
+login:Penguin<>sage<>2017/02/13(月) 21:59:27.28 ID:IkqWX5Yc<> <a href="../test/read.cgi/linux/1485145420/143" rel="noopener noreferrer" target="_blank">&gt;&gt;143</a> <br> え？お前は最新PCにLinux入れてんの！？ <>
+login:Penguin<>sage<>2017/02/13(月) 22:05:40.00 ID:L0NF5Sw/<> Linux機はLinux機で組んでるが <>
+login:Penguin<>sage<>2017/02/13(月) 22:10:44.63 ID:iJHsPJaY<> 脱Windowsが目的でLinux始めたやつはそれなりに新しいスペックのマシン使ってるんじゃね？ <>
+login:Penguin<>sage<>2017/02/13(月) 23:03:27.41 ID:Rz3CQmkU<> <a href="../test/read.cgi/linux/1485145420/141" rel="noopener noreferrer" target="_blank">&gt;&gt;141</a> <br> 古い低スペックPCためにWin10をわざわざ買うことまでしたくない <br> からただのLinuxって奴は多いだろな。 <br> <br> <a href="../test/read.cgi/linux/1485145420/144" rel="noopener noreferrer" target="_blank">&gt;&gt;144</a> <br> エンコのような糞重い処理をするやつは最新PC使っているだろ <br> でも、それはWinユーザーでもだろう <>
+login:Penguin<>sage<>2017/02/13(月) 23:18:10.63 ID:DihHoYfS<> 別にゴミPCの延命でも、最新linux専用機でもいいでしょ！ <br> 自由だよ自由 <>
+login:Penguin<>sage<>2017/02/13(月) 23:50:03.24 ID:ALZdwybc<> C2D6600でも動画のエンコやってるよ～ん <>
+login:Penguin<>sage<>2017/02/14(火) 00:01:20.84 ID:1tt/pIJs<> <a href="../test/read.cgi/linux/1485145420/136" rel="noopener noreferrer" target="_blank">&gt;&gt;136</a> <br> ReactOSの悪口はそこまでだ。 <br> Wine込みでWindows NT互換を目指すオープンソースのOSだが <br> 「windows でやってればいいんじゃない？」などと言われたら元も子もないw <>
+login:Penguin<>sage<>2017/02/14(火) 00:50:35.97 ID:8JbxBJkH<> 最新PCにLinux入れるのもごく普通の使い方 <>
+login:Penguin<>sage<>2017/02/14(火) 03:24:42.71 ID:1tt/pIJs<> Microsoft Surface Pro 4 向けのKernelも用意されてるからな <br> <br> http://kledgeb.blogspot.jp/2017/02/ubuntu-1604-125-microsoft-surface-pro.html <br> <br> <br> MicrosoftもLinux Foundation会員になったし <br> そろそろMicrosoftが作るLinuxディストロを見せて欲しいところだ <>
+login:Penguin<><>2017/02/14(火) 10:59:21.86 ID:fXJyECZ1<> wine とか潔くないよ <br> 古いpcでwin8,10重いっていうんなら、wineでエミュっても <br> 重いのは一緒やんか <br> 決別したほうがすっきりすると思うよ <br> <br> winじゃなきゃできないことって何？具体的に <br> ゲーマーは絶対エミュなんかやらないわなｗ <>
+login:Penguin<>sage<>2017/02/14(火) 11:43:47.74 ID:K9+ms+/i<> いまどきパソコン組むとか恥ずかしいな <br> せいぜいメモリ交換とかドライブ交換とか <br> グラボ挿すくらいが限度だろ <br> それ以上やる奴は異常 <>
+login:Penguin<>sage<>2017/02/14(火) 12:29:52.21 ID:3gbsT156<> 逆にメーカー製なんでゴミ買う奴おるん？ <>
+login:Penguin<>sage<>2017/02/14(火) 12:34:49.80 ID:9uAHGVYU<> Windowsで動かしてた時よりWineでの方が速かったり動作がキビキビしてる事が結構あったりするんだよなぁ <>
+login:Penguin<>sage<>2017/02/14(火) 12:37:44.53 ID:CYYFVBbN<> <a href="../test/read.cgi/linux/1485145420/156" rel="noopener noreferrer" target="_blank">&gt;&gt;156</a> <br> ワインはエミュレータじゃ無いからな。 <>
+login:Penguin<><>2017/02/14(火) 12:49:31.58 ID:fXJyECZ1<> <a href="../test/read.cgi/linux/1485145420/157" rel="noopener noreferrer" target="_blank">&gt;&gt;157</a> <br> 屁理屈に聞こえるな <br> どっちにしろ「エミュレーターみたいなもん」だろ <br> 遠回りしてることには変わりない <>
+login:Penguin<>sage<>2017/02/14(火) 13:11:27.65 ID:Lat6rO8L<> 古いPCで使ってるがWineでWinアプリを動かして重いと感じたことなど無いぞ <>
+login:Penguin<>sage<>2017/02/14(火) 13:23:44.29 ID:1PXymxIQ<> <a href="../test/read.cgi/linux/1485145420/155" rel="noopener noreferrer" target="_blank">&gt;&gt;155</a> <br> え？ <br> マジで言ってんの？ <>
+login:Penguin<>sage<>2017/02/14(火) 13:38:03.30 ID:ii5s3ib2<> <a href="../test/read.cgi/linux/1485145420/158" rel="noopener noreferrer" target="_blank">&gt;&gt;158</a> <br> エミュはVirtualboxやろ <br> Wineは言語翻訳みたいなもん <>
+login:Penguin<>sage<>2017/02/14(火) 15:16:40.84 ID:iPyr2YLM<> そもそも窓が重い言われてるのはwin32のせいじゃないでしょ <>

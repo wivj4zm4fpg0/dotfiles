@@ -19,8 +19,8 @@
 set guioptions-=T "GUIでツールバーを隠す
 set guifont=Monospace\ Regular\ 12 "GUIでフォントを指定する
 "let loaded_matchparen = 1 "括弧の強調を抑制する
-set lines=40 "縦幅(GUI)
-set columns=120 "横幅(GUI)
+"set lines=40 "縦幅(GUI)
+"set columns=120 "横幅(GUI)
 set guioptions-=r "スクロールバーを消す
 set guioptions-=R
 set guioptions-=l
@@ -28,3 +28,21 @@ set guioptions-=L
 set guioptions-=b
 syntax on "構文毎に色を分ける
 colorscheme molokai "カラースキームを使う
+"et guioptions+=aインドウサイズや位置などを記憶
+let g:save_window_file = expand('~/.vimwinpos')
+augroup SaveWindow
+autocmd!
+autocmd VimLeavePre * call s:save_window()
+function! s:save_window()
+let options = [
+    \ 'set columns=' . &columns,
+    \ 'set lines=' . &lines,
+    \ 'winpos ' . getwinposx() . ' ' . getwinposy(),
+    \ ]
+call writefile(options, g:save_window_file)
+    endfunction
+    augroup END
+
+if filereadable(g:save_window_file)
+    execute 'source' g:save_window_file
+    endif

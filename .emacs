@@ -20,11 +20,13 @@
 (setq-default indent-tabs-mode nil)
 (global-linum-mode t)
 (setq default-tab-width 4)
-(set-frame-parameter nil 'fullscreen 'maximized)
+(set-frame-parameter nil 'fullscreen 'maximized) ;最大化
 (put 'upcase-region 'disabled nil)
+
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
+;;neotree
 (global-set-key [f8] 'neotree-toggle)
 
 ;; indent-guide
@@ -65,3 +67,79 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (load-theme 'molokai t)
 (enable-theme 'molokai)
+
+;;expand-region
+(require 'expand-region)
+(global-set-key (kbd "C-,") 'er/expand-region)
+
+;;クォートやブラッケットを一括で括る
+(defun region-to-single-quote ()
+  (interactive)
+  (quote-formater "'%s'" "^\\(\"\\).*" ".*\\(\"\\)$"))
+(defun region-to-double-quote ()
+  (interactive)
+  (quote-formater "\"%s\"" "^\\('\\).*" ".*\\('\\)$"))
+(defun region-to-bracket ()
+  (interactive)
+  (quote-formater "\(%s\)" "^\\(\\[\\).*" ".*\\(\\]\\)$"))
+(defun region-to-square-bracket ()
+  (interactive)
+  (quote-formater "\[%s\]" "^\\(\(\\).*" ".*\\(\)\\)$"))
+(defun quote-formater (quote-format re-prefix re-suffix)
+  (if mark-active
+      (let* ((region-text (buffer-substring-no-properties (region-beginning) (region-end)))
+             (replace-func (lambda (re target-text)(replace-regexp-in-string re "" target-text nil nil 1)))
+             (text (funcall replace-func re-suffix (funcall replace-func re-prefix region-text))))
+        (delete-region (region-beginning) (region-end))
+        (insert (format quote-format text)))
+    (error "Not Region selection")))
+;; 2016/12/15 追記
+;; リージョン選択時のみアクティブになるregion-bindings-mode(マイナーモード)を教えてもらいました
+;; こちらで設定する方がグローバルなキーバインドを節約でき良いと思います
+(require 'region-bindings-mode)
+(region-bindings-mode-enable)
+(define-key region-bindings-mode-map (kbd "M-'") 'region-to-single-quote)
+(define-key region-bindings-mode-map (kbd "M-\"") 'region-to-double-quote)
+(define-key region-bindings-mode-map (kbd "M-9") 'region-to-bracket)
+(define-key region-bindings-mode-map (kbd "M-[") 'region-to-square-bracket)
+
+;;bm
+(require 'bm)
+(global-set-key (kbd "M-p") 'bm-previous)
+(global-set-key (kbd "M-p") 'bm-next)
+
+;;anzu
+(require 'anzu)
+(global-anzu-mode +1)
+(set-face-attribute 'anzu-mode-line nil
+                    :foreground "yellow" :weight 'bold)
+(custom-set-variables
+ '(anzu-mode-lighter "")
+ '(anzu-deactivate-region t)
+ '(anzu-search-threshold 1000)
+ '(anzu-replace-to-string-separator " => "))
+(global-set-key (kbd "M-%") 'anzu-query-replace)
+(global-set-key (kbd "C-M-%") 'anzu-query-replace-regexp)
+
+;;ace-jump-mode
+(require 'ace-jump-mode)
+(global-set-key (kbd "C-;") 'ace-jump-word-mode)
+(global-set-key (kbd "C-:") 'ace-jump-line-mode)
+
+;;スクロールの調整
+(setq scroll-conservatively 1)
+
+;;highlight-symbol
+(require 'highlight-symbol)
+(setq highlight-symbol-colors '("LightSeaGreen" "HotPink" "SlateBlue1" "DarkOrange" "SpringGreen1" "tan" "DodgerBlue1"))
+(global-set-key (kbd "C-x C-l") 'highlight-symbol-at-point)
+
+;; 1 画面スクロール時にカーソルの画面上の位置をなるべく変えない
+ (setq scroll-preserve-screen-position t)
+
+;ファイラーを最初から表示
+(neotree-toggle)
+
+;真ん中でスクロールする
+(global-centered-cursor-mode)
+(global-hl-line-mode)
