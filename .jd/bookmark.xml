@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<favorite path="13" y="0">
+<favorite path="2" y="0">
+  <board name="ソフトウェア" url="http://potato.2ch.net/software/" />
   <board name="Google" url="http://echo.2ch.net/google/" />
   <board name="プログラム" url="http://echo.2ch.net/tech/" />
   <board name="プログラマー" url="http://tamae.2ch.net/prog/" />

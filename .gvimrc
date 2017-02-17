@@ -28,7 +28,7 @@ set guioptions-=L
 set guioptions-=b
 syntax on "構文毎に色を分ける
 colorscheme molokai "カラースキームを使う
-"et guioptions+=aインドウサイズや位置などを記憶
+set guioptions+=a "ウインドウサイズや位置などを記憶
 let g:save_window_file = expand('~/.vimwinpos')
 augroup SaveWindow
 autocmd!

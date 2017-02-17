@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<boardlist path="41" y="297">
+<boardlist path="41" y="291">
   <subdir dirid="2" name="地震">
     <board name="地震headline" url="http://headline.2ch.net/bbynamazu/" />
     <board name="地震速報" url="http://potato.2ch.net/namazuplus/" />

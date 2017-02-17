@@ -23,6 +23,7 @@
 (set-frame-parameter nil 'fullscreen 'maximized) ;最大化
 (put 'upcase-region 'disabled nil)
 
+;パッケージ管理プラグインCaskの導入
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 

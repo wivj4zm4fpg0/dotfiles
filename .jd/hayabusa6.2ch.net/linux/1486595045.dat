@@ -61,3 +61,39 @@ login:Penguin<>sage<>2017/02/14(火) 12:42:56.81 ID:3gbsT156<> ゲームなんて滅多に
 login:Penguin<>sage<>2017/02/14(火) 12:49:02.14 ID:aqu8O6AG<> LinuxとかUNIX系のOSはやたらプロセスの数が多い。 <br> Windowsだと100個程度なのに、Linuxデスクトップ環境だと3～4倍はある。 <br> forkしまくってそういう風に見えるのかもしれないけど。 <>
 login:Penguin<><>2017/02/14(火) 12:50:21.15 ID:sD54om/f<> Ubuntu16.04LTSデスクトップをクリーンインストール後 <br> textモードで起動させたかったので <br> systemctl set-default multi-user.target?? <br> でlightmd(GUIログイン画面)を出さなくするまでは成功 <br> <br> ただ、自動的にログインメッセージが出ません <br> ここでalt+F1を押せばログインメッセージが出て <br> ログイン可能となります <br> <br> 電源オンで自動的にログインメッセージまで出す方法ありますか？ <br> <br> ちなみに <br> systemctl disable lightdm <br> で再起動したときも同じ現象で <br> ログインするにはalt+F1が必要でした <>
 login:Penguin<>sage<>2017/02/14(火) 13:11:50.66 ID:cAsU2pGT<> <a href="../test/read.cgi/linux/1486595045/58" rel="noopener noreferrer" target="_blank">&gt;&gt;58</a> <br> （笑） <>
+login:Penguin<>sage<>2017/02/14(火) 19:49:50.72 ID:XU/t2WEB<> <a href="../test/read.cgi/linux/1486595045/58" rel="noopener noreferrer" target="_blank">&gt;&gt;58</a> <br> 実は、 <br> 俺様には技術力があるから、低スペPCで(ノーマルチューンの)最近のPCに近い性能を発揮できる <br> と自慢しているんだよ。つまり自分の技術力自慢。 <br> Linuxユーザーにはすごい技術力ある奴が多いからな。でも、俺はそんな技術力はないが。 <>
+login:Penguin<>sage<>2017/02/14(火) 19:59:43.87 ID:XU/t2WEB<> <a href="../test/read.cgi/linux/1486595045/60" rel="noopener noreferrer" target="_blank">&gt;&gt;60</a> <br> Linuxユーザーはゲームするためではなく、グラフィック、GPGPUや今話題の深層学習を <br> するために高性能GPUってやつが大多数だよな。これらの話題はこの板でかなり出ているし。 <>
+login:Penguin<>sage<>2017/02/14(火) 21:19:34.36 ID:hctMA5bm<> 機械学習のためにグラボ買う奴なんかほとんどいないぞ適当なこと言うな <br> 性能が必要ならクラウド使う <>
+login:Penguin<>sage<>2017/02/14(火) 21:54:02.21 ID:aqu8O6AG<> ポイントリリース来た？ <>
+login:Penguin<>sage<>2017/02/15(水) 04:58:02.18 ID:naavLodY<> <a href="../test/read.cgi/linux/1486595045/64" rel="noopener noreferrer" target="_blank">&gt;&gt;64</a> <br> それは違うな。 <br> 軽い厨ってのは軽いなりに犠牲になった制限に気がついて無いか、 <br> 問題視して無いだけ。 <br> 今やUbuntuもWindows並の重量級OS になりつつ有るのが事実。 <>
+login:Penguin<>sage<>2017/02/15(水) 05:34:22.38 ID:QVDDFLRR<> Ubuntuは昔から重かっただろ <br> GNOMEだった頃も、Unityになってからも <>
+login:Penguin<>sage<>2017/02/15(水) 06:01:21.50 ID:R7J3WBxG<> <a href="../test/read.cgi/linux/1486595045/69" rel="noopener noreferrer" target="_blank">&gt;&gt;69</a> <br> 軽い厨になるにはSSDとメモリーを積みましょう。 <br> 重量級OS のUbuntuやWindowsでもC2Dでサクサクです（笑） <>
+login:Penguin<>sage<>2017/02/15(水) 08:09:07.81 ID:HD7Z+4S4<> C2Dなんて電気代で結局損してるのに気付かない馬鹿 <>
+login:Penguin<>sage<>2017/02/15(水) 08:12:45.82 ID:pDFnQkyH<> <a href="../test/read.cgi/linux/1486595045/71" rel="noopener noreferrer" target="_blank">&gt;&gt;71</a> <br> その電気代って月にいくら位？ <br> 相当なドケチぶりだな（笑） <>
+login:Penguin<>sage<>2017/02/15(水) 08:59:36.12 ID:tSMsLTy3<> C2Dなんて使ってないでKabylakeにすればかなり消費電力下がるぞ <br> Sandyほどじゃないがi7のOCが地味に伸ばしやすいし <>
+login:Penguin<>sage<>2017/02/15(水) 10:55:29.71 ID:qJPUYkED<> <a href="../test/read.cgi/linux/1486595045/68" rel="noopener noreferrer" target="_blank">&gt;&gt;68</a> <br> &gt;問題視して無いだけ。 <br> Xを起動させずにサクサク使うオレは、 <br> 問題視していないことがたくさんありそうだなw <>
+login:Penguin<>sage<>2017/02/15(水) 11:44:48.34 ID:poly+gyM<> <a href="../test/read.cgi/linux/1486595045/71" rel="noopener noreferrer" target="_blank">&gt;&gt;71</a> <br> 痛い所突かれちゃったね。 <>
+login:Penguin<>sage<>2017/02/15(水) 12:50:42.83 ID:RKgEbgwa<> <a href="../test/read.cgi/linux/1486595045/62" rel="noopener noreferrer" target="_blank">&gt;&gt;62</a> <br> &gt;電源オンで自動的にログインメッセージまで出す方法ありますか？ <br> <br> 以下を試してみてはどうだろうか？ <br> <br> $ systemctl get-default <br> multi-user.target <br> <br> は確認できているとして、次に起動方法を変更する。 <br> まず、/etc/default/grubをroot権限で開く。 <br> $ sudo gedit /etc/default/grub <br> <br> 次に、GRUB_CMDLINE_LINUX_DEFAULTの項目を <br> <br> GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet splash&quot; <br> から <br> GRUB_CMDLINE_LINUX_DEFAULT=&quot;text&quot; <br> に変更する。 <br> <br> そして書き込み終了し、次のコマンドを実行する。 <br> $ sudo update-grub <br> <br> 最後に <br> $ sudo reboot <br> <br> で再起動する。 <br> 以上、自己責任で！ <>
+login:Penguin<>sage<>2017/02/15(水) 13:51:31.65 ID:poly+gyM<> デフォルトの起動レベルを変えりゃいいんじゃねーの？ <>
+login:Penguin<><>2017/02/15(水) 17:24:23.31 ID:vXf9w4IO<> GRUBも関係しそうなオプションいろいろ試してはみたんですけどねぇ <br> 今夜もっかいやってみます <>
+login:Penguin<>sage<>2017/02/15(水) 17:54:51.74 ID:HD7Z+4S4<> <a href="../test/read.cgi/linux/1486595045/72" rel="noopener noreferrer" target="_blank">&gt;&gt;72</a> <br> 1000～2000円違うよ <br> 付けてる時間とか処理内容によるけど <>
+login:Penguin<>sage<>2017/02/15(水) 18:14:49.43 ID:ZlqGRDxL<> c2D使いだけど、電力が殆ど熱になってしまうのは認めざるを得ない。 <>
+login:Penguin<>sage<>2017/02/15(水) 18:35:30.29 ID:PVTadur4<> 暖房の助けになっていいじゃないか <>
+login:Penguin<>sage<>2017/02/15(水) 18:42:08.17 ID:VtN/QUqD<> <a href="../test/read.cgi/linux/1486595045/80" rel="noopener noreferrer" target="_blank">&gt;&gt;80</a> <br> それで暖房代としてはいくら位なの（笑） <>
+login:Penguin<>sage<>2017/02/15(水) 20:23:30.53 ID:ecABBtEx<> <a href="../test/read.cgi/linux/1486595045/79" rel="noopener noreferrer" target="_blank">&gt;&gt;79</a> <br> 1500円として、25円/KWh換算すると、 <br> 24時間常に80Wの差が生まれてることになるわけだが、年中エンコードとかしてる人？ <>
+login:Penguin<>sage<>2017/02/15(水) 20:28:21.58 ID:iX9j2GF8<> アイドル90W、１日二時間として <br> 150円/月ぐらいか <br> 無職がメインで使ってたら厳しいが、普通の奴ならガタガタ言う方がアホ <>
+login:Penguin<>sage<>2017/02/15(水) 20:32:51.79 ID:o6zReMrD<> ＞電気代で結局損してるのに気付かない馬鹿 <br> とか言ってるやつが一番電気代計算できてないやつだったってオチ <>
+login:Penguin<>sage<>2017/02/15(水) 20:49:50.50 ID:BjTa8m/A<> 切れ味の良いオチ方でしたね <>
+login:Penguin<>sage<>2017/02/15(水) 21:00:12.45 ID:YhAwzXGg<> <a href="../test/read.cgi/linux/1486595045/84" rel="noopener noreferrer" target="_blank">&gt;&gt;84</a> <br> Linuxユーザーには低収入な奴の割合がかなり高い <br> Win・新しいPC買えない。で、C2DでただのLinuxを使っていると <>
+login:Penguin<>sage<>2017/02/15(水) 22:10:52.81 ID:PfVIqKB2<> C2Dとか何年前の話してるのよ <br> 経年劣化は大丈夫か <>
+login:Penguin<><>2017/02/15(水) 22:20:49.98 ID:4WjwGZY4<> やっぱりモニターが一番電気食うよな <>
+login:Penguin<>sage<>2017/02/15(水) 22:46:03.14 ID:BjTa8m/A<> 7～8年前のC2Dも使ってるけど、わりと快調 <>
+login:Penguin<>sage<>2017/02/15(水) 22:49:48.05 ID:4MixgCfC<> C2Dのノートが丁度いいんだよな <>
+login:Penguin<>sage<>2017/02/15(水) 23:10:07.10 ID:r4NeBvZ8<> CPUよりグラボの方がワッパ上がってるよ <br> GTX1050TiとかRX460とか補助電源不要だし <>
+login:Penguin<>sage<>2017/02/15(水) 23:21:12.09 ID:YhAwzXGg<> <a href="../test/read.cgi/linux/1486595045/90-91" rel="noopener noreferrer" target="_blank">&gt;&gt;90-91</a> <br> CPU性能必要なことをやってないとそうなるだろ <br> 高脳で色々俺ソフト開発をやっているような奴だとC2Dだと快適ってことはないだろな <>
+login:Penguin<>sage<>2017/02/16(木) 00:11:00.88 ID:nHXaeF1m<> <a href="../test/read.cgi/linux/1486595045/83" rel="noopener noreferrer" target="_blank">&gt;&gt;83</a> <br> 一日2時間とか極端な例を出すなよ <br> 負け惜しみもいいところ <>
+login:Penguin<><>2017/02/16(木) 00:44:30.66 ID:jV9CQlbT<> <a href="../test/read.cgi/linux/1486595045/76" rel="noopener noreferrer" target="_blank">&gt;&gt;76</a>,77 <br> <br> 結論から言うと <br> 複数のディスクが繋がっていて意図してないほうのディスクからブートしてたのが原因でした．．． <br> 同じubuntu入れてるので気づかなかった言い訳ですが <br> <br> 余計なディスク外して <br> systemctl set-default multi-user.target <br> だけでログイン自動表示までうまくいきました <br> ?? <br> 必要に応じて <br> systemctl start lightdm <br> でデスクトップも使用できてます <br> <br> ただGRUBの設定変更ではログイン表示が出ずalt+F1でログイン表示という前回と同じ現象 <br> GRUB起動メニューでe押してオプション追加テキストモード起動でも同じ <br> これはこれで気になるので時間あるときにまたチャレンジしてみます <br> <br> ありがと <>
+login:Penguin<>sage<>2017/02/16(木) 00:46:06.88 ID:jsUzcrTx<> 24時間常時80W差は極端じゃないですか、そうですか <>
+login:Penguin<>sage<>2017/02/16(木) 01:04:45.86 ID:RdlFPDyM<> <a href="../test/read.cgi/linux/1486595045/94" rel="noopener noreferrer" target="_blank">&gt;&gt;94</a> <br> １日二時間は俺の場合ってだけだが <br> PC一時間もさわる時間無いときもある <br> C2Dはサブでファイルサーバーみたいな使い方してるからほとんどスリープでメインは1150世代 <br> てかうちの1150世代の４コアはC2Dと消費電力大して違わないな <>
+login:Penguin<><>2017/02/16(木) 02:41:28.59 ID:jV9CQlbT<> テキストモード起動で自動ログイン表示 <br> GRUBの設定でできました！ <br> <br> GRUB_CMDLINE_LINUX_DEFAULT=&quot;systemd.unit=multi-user.target quiet&quot; <br> <br> quiteがみそのようでquiteを消すとログイン表示しなくなります(alt+F1で表示可能) <br> splashはあってもなくてもOKでした <br> <br> ちなみにtextオプションはちょっとまえのバージョンから使えなくなったみたいですね <>
+login:Penguin<><>2017/02/16(木) 04:11:21.24 ID:jV9CQlbT<> ちがった <br> nosplashを入れたときだけうまくいく <br> 組み合わせもいろいろ試したので今度こそ間違いない <>
