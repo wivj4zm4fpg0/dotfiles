@@ -1,6 +1,7 @@
 *
 !.vimrc
 !.vim
+!.vim/*
 !.emacs
 !.emacs.d
 !.jd
@@ -9,5 +10,4 @@
 !.easystroke
 !.gitconfig
 !.config
-.config/*
 !.config/nvim
