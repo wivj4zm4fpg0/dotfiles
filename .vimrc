@@ -1,3 +1,4 @@
+if !1 | finish | endif "vim.tinyで読み込ませない
 set expandtab "TABで空白を入力する
 set tabstop=4 "TABで入力される幅
 set shiftwidth=4 "自動インデントでずれる幅
@@ -19,38 +20,9 @@ syntax on "構文に色を分ける(viでは使えない)
 set scrolloff=1000 "カーソルの位置を真ん中に調整
 inoremap <ESC> <ESC>:set iminsert=0<CR>  " ESCでIMEを確実にOFF
 set clipboard=unnamed,autoselect "クリップボード
+"autocmd vimenter * NERDTreeToggle "起動時にファイラーを表示
 
-""""""""""""""""""""""""""""""
-" プラグインのセットアップ
-""""""""""""""""""""""""""""""
-if has('vim_starting')
-  set nocompatible               " Be iMproved
-
-  " Required:
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
-endif
-
-" Required:
-call neobundle#begin(expand('~/.vim/bundle/'))
-
-" Let NeoBundle manage NeoBundle
-" Required:
-NeoBundleFetch 'Shougo/neobundle.vim'
-
-" ファイルオープンを便利に
-NeoBundle 'Shougo/unite.vim'
-" Unite.vimで最近使ったファイルを表示できるようにする
-NeoBundle 'Shougo/neomru.vim'
-" ツリー型のファイラーを表示
-NeoBundle 'scrooloose/nerdtree'
-" ...省略
-
-call neobundle#end()
-
-" Required:
-filetype plugin indent on
-
-" If there are uninstalled bundles found on startup,
-" this will conveniently prompt you to install them.
-NeoBundleCheck
-""""""""""""""""""""""""""""""
+"vim-plug
+call plug#begin('~/.vim/plugged')
+    Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' } "ファイラー
+call plug#end()

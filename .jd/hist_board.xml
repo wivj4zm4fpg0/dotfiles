@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <history path="0" y="0">
+  <board name="Linux" url="http://hayabusa6.2ch.net/linux/" />
   <board name="プログラム" url="http://echo.2ch.net/tech/" />
   <board name="PC初心者" url="http://tamae.2ch.net/pcqa/" />
   <board name="UNIX" url="http://echo.2ch.net/unix/" />
   <board name="データベース" url="http://echo.2ch.net/db/" />
-  <board name="Linux" url="http://hayabusa6.2ch.net/linux/" />
   <board name="ゲ製作技術" url="http://echo.2ch.net/gamedev/" />
   <board name="ソフトウェア" url="http://potato.2ch.net/software/" />
   <board name="癒し" url="http://rio2016.2ch.net/healing/" />
