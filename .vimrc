@@ -19,6 +19,7 @@ syntax on "構文に色を分ける(viでは使えない)
 set scrolloff=1000 "カーソルの位置を真ん中に調整
 inoremap <ESC> <ESC>:set iminsert=0<CR>  " ESCでIMEを確実にOFF
 set clipboard=unnamed,autoselect "クリップボード
+
 """"""""""""""""""""""""""""""
 " プラグインのセットアップ
 """"""""""""""""""""""""""""""
