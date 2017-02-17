@@ -8,3 +8,6 @@
 !.gvimrc
 !.easystroke
 !.gitconfig
+!.config
+.config/*
+!.config/nvim
