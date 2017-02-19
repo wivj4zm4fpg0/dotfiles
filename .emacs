@@ -17,11 +17,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Takaoゴシック" :foundry "IPA " :slant normal :weight normal :height 120 :width normal)))))
-(setq-default indent-tabs-mode nil)
-(global-linum-mode t)
-(setq default-tab-width 4)
+(setq-default indent-tabs-mode nil) ;デフォルトでタブの代わりに空白を入力する
+(global-linum-mode t) ;行番号を表示
+(setq default-tab-width 4) ;デフォルトのタブ幅を4にする
 (set-frame-parameter nil 'fullscreen 'maximized) ;最大化
-(put 'upcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil) ;リージョン内の大文字変換のキーバインドの有効
+(put 'downcase-region 'disabled nil) ;リージョン内の小文字変換のキーバインドの有効
 
 ;パッケージ管理プラグインCaskの導入
 (require 'cask "~/.cask/cask.el")
@@ -142,5 +143,7 @@
 (neotree-toggle)
 
 ;真ん中でスクロールする
-(global-centered-cursor-mode)
+(and
+(require 'centered-cursor-mode)
+(global-centered-cursor-mode +1))
 (global-hl-line-mode)

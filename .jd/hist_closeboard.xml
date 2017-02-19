@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <history path="0" y="0">
+  <board name="E-Hentaiまとめサイト掲示板" url="http://jbbs.shitaraba.net/comic/6156/" />
+  <board name="スマホヘッドライン" url="http://headline.2ch.net/bbymobile/" />
+  <board name="PCサロン" url="http://hayabusa6.2ch.net/pc2nanmin/" />
+  <board name="PCニュース" url="http://tamae.2ch.net/pcnews/" />
+  <board name="Windows" url="http://echo.2ch.net/win/" />
+  <board name="ノートPC" url="http://potato.2ch.net/notepc/" />
+  <board name="パソコン一般" url="http://tamae.2ch.net/pc/" />
+  <board name="ハードウェア" url="http://echo.2ch.net/hard/" />
+  <board name="CD-R,DVD" url="http://echo.2ch.net/cdr/" />
+  <board name="プログラマー" url="http://tamae.2ch.net/prog/" />
+  <board name="プログラム" url="http://echo.2ch.net/tech/" />
   <board name="データベース" url="http://echo.2ch.net/db/" />
   <board name="Linux" url="http://hayabusa6.2ch.net/linux/" />
   <board name="癒し" url="http://rio2016.2ch.net/healing/" />
-  <board name="プログラム" url="http://echo.2ch.net/tech/" />
   <board name="半角二次元" url="http://mercury.bbspink.com/ascii2d/" />
   <board name="女の色仕掛けに嵌められるSS掲示板" url="http://jbbs.shitaraba.net/internet/21464/" />
-  <board name="プログラマー" url="http://tamae.2ch.net/prog/" />
   <board name="UNIX" url="http://echo.2ch.net/unix/" />
   <board name="ニュー速(嫌儲)" url="http://hitomi.2ch.net/poverty/" />
   <board name="ニュー速VIP" url="http://vipper.2ch.net/news4vip/" />
   <board name="ゲ製作技術" url="http://echo.2ch.net/gamedev/" />
-  <board name="E-Hentaiまとめサイト掲示板" url="http://jbbs.shitaraba.net/comic/6156/" />
   <board name="大学生活" url="http://hanabi.2ch.net/campus/" />
 </history>

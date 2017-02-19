@@ -228,3 +228,26 @@
 228<>YES！HENTAI<>sage<>2017/02/12(日) 12:23:16<><a href="/bbs/read.cgi/comic/6156/1484598928/225" target="_blank">&gt;&gt;225</a><br>EHGDはイメージリミットが来たら一時停止するはずなんだが<br>それが何故か今回は機能してない<br><br><a href="/bbs/read.cgi/comic/6156/1484598928/226" target="_blank">&gt;&gt;226</a><br>IP banの表示が出たけど、永久停止じゃなくて一時凍結だったわ<><>gPaOY2XE
 229<>YES！HENTAI<>sage<>2017/02/12(日) 13:21:08<>使ってないから知らんが串の選別が必要かもな<br><br>例えば<br>http://www.getproxy.jp/<br>ここの串は2016-11-28から更新していない<><>LWV/YPPg
 230<>YES！HENTAI<>sage<>2017/02/12(日) 13:37:02<>あとは509をhttps://ehgt.orgで判断しているならアドレスが変更になったのかもな<><>LWV/YPPg
+231<>YES！HENTAI<>sage<>2017/02/12(日) 14:35:53<>509は&quot;Your IP address has been temporarily banned&quot;のメッセージが含まれてるかで判断してあるよ<br>メッセージ変わったとか？<><>IXi4q9Kg
+232<>YES！HENTAI<>sage<>2017/02/12(日) 15:01:12<><a href="/bbs/read.cgi/comic/6156/1484598928/223" target="_blank">&gt;&gt;223</a><br>ありがとう<br>IP変更する<><>FeBP7ke6
+233<>YES！HENTAI<>sage<>2017/02/12(日) 15:03:41<>EHGD 1.9.1 勝手に改造　パスいつもの<br>https://www.axfc.net/u/3774904<br><br>e-henの方で有効なページ云々出るのの修正、というか仕様変更に弱すぎる構造を若干変更した。<br>あとオリジナルソースのダウンロードオプション付けといた、<br>あんまデバッグしてないのでオリジナルソース使う時は人柱気分でよろしく。<br><br>リミットで停止しないってのはまだ何もしてない。<><>IXi4q9Kg
+234<>YES！HENTAI<>sage<>2017/02/12(日) 15:59:17<>Hath PerksのMore Pages系を取っているとImage Limitsの509の確認が怠いんだよな<><>LWV/YPPg
+235<>YES！HENTAI<>sage<>2017/02/12(日) 17:40:47<><a href="/bbs/read.cgi/comic/6156/1484598928/233" target="_blank">&gt;&gt;233</a><br>まさかの修正バージョンありがとうございます<br>さっそく使わせてもらいました<><>/sq88Xm.
+236<>YES！HENTAI<><>2017/02/12(日) 17:52:34<>eのほうは起動したけどexのURLは有効なページじゃないって弾かれてしまう<br>なにが失敗してるんだろう<><>3jbCLeEU
+237<>YES！HENTAI<>sage<>2017/02/12(日) 18:57:07<>メロンは普通に使えてるぞ<><>oeLNQz1U
+238<>YES！HENTAI<>sage<>2017/02/12(日) 19:07:22<><a href="/bbs/read.cgi/comic/6156/1484598928/236" target="_blank">&gt;&gt;236</a><br>ウチじゃ再現しなかったなぁ、なんだろ？<br>他の人も出るのかな<br><br><a href="/bbs/read.cgi/comic/6156/1484598928/234" target="_blank">&gt;&gt;234</a><br>5000で止まるから怠いって意味だったら、cookies.txtにhath_perksの値も書き込んどくといい<><>IXi4q9Kg
+239<>YES！HENTAI<><>2017/02/12(日) 20:13:34<>今さらだけど、2月14日すぎたら鍵のついてないページは見れなくなるの？<><>yjpnsiNc
+240<>YES！HENTAI<>sage<>2017/02/12(日) 20:20:34<>鍵ってなんぞ<><>kbUFICJk
+241<>YES！HENTAI<>sage<>2017/02/12(日) 20:22:14<>ログイン失敗してんのかな<br>ログイン成功しましたって出はするんだけど<><>3jbCLeEU
+242<>sage<><>2017/02/12(日) 20:42:52<>＞鍵<br>httpsのアドレス表示についてる鍵マーク。sha2証明書になってないと出ないってやつ。<br>サイト全体にはついてても、作品の個別ページになるとなぜかついてない。自分だけか？<><>yjpnsiNc
+243<>YES！HENTAI<><>2017/02/12(日) 21:56:32<>リダイレクトするようになったって話は上とニュースに出てたでしょ<br>個別ページがhttpだったりg.が含まれてるならおかしいかもね<br>と言うか使ってるブラウザくらい書けケツ奴隷にすんぞ<><>YzH/pRRQ
+244<>YES！HENTAI<>sage<>2017/02/12(日) 22:43:48<><a href="/bbs/read.cgi/comic/6156/1484598928/241" target="_blank">&gt;&gt;241</a><br>わかったわー、仕様変更の影響？かログイン判断が上手くいってなかった模様、まちがった値でもログイン成功って出てた<br>たぶんCookies.txtの内容がなんか間違ってるか古い状態だと思うので見直してみて<br><br>上のとほとんど変わらんけど、EHGD1.9.1 勝手に改造　ログイン判定強化版<br>https://www.axfc.net/u/3775058<><>IXi4q9Kg
+245<>YES！HENTAI<>sage<>2017/02/12(日) 23:49:02<>ログイン失敗してた原因は「ipb_member_id」と値の間にコロンを入れてたことだと判明<br>GUI上ではコロンが見えなかったからなかなか気づけなかった<><>3jbCLeEU
+246<>YES！HENTAI<>sage<>2017/02/14(火) 01:32:43<>言っとくけどここ例の在日POP9覗いてるからなw<br><br>悪口が気になってしょうがないらしいw<><>fhYRs/mI
+247<>YES！HENTAI<>sage<>2017/02/14(火) 20:38:13<><a href="/bbs/read.cgi/comic/6156/1484598928/244" target="_blank">&gt;&gt;244</a><br>いつもありがとう<><>gPaOY2XE
+248<>YES！HENTAI<><>2017/02/15(水) 04:43:51<>Androidで画像が表示されないんだけどなんでだろ？<><>R63xZ2eg
+249<>YES！HENTAI<>sage<>2017/02/15(水) 21:11:53<>EHGDがあれば最近作ったアカウントでもいけるかな<><>roJ1.3gc
+250<>YES！HENTAI<>sage<>2017/02/15(水) 21:40:42<>いけるわけねーだろ少しは考えろや<><>yr2JllTE
+251<>YES！HENTAI<>sage<>2017/02/16(木) 00:31:02<><a href="/bbs/read.cgi/comic/6156/1484598928/248" target="_blank">&gt;&gt;248</a><br>キャッシュ消せ<><>t6ORLED2
+252<>YES！HENTAI<>sage<>2017/02/17(金) 07:20:51<>去年垢作った者だけどいつになったら入れるんだろうか<><>roJ1.3gc
+253<>YES！HENTAI<>sage<>2017/02/17(金) 07:46:01<>1年後<><>ezIPqeL6
