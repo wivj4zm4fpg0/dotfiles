@@ -19,7 +19,7 @@ set cursorline "今いる行をハイライトする
 syntax on "構文に色を分ける(viでは使えない)
 set scrolloff=1000 "カーソルの位置を真ん中に調整
 inoremap <ESC> <ESC>:set iminsert=0<CR>  " ESCでIMEを確実にOFF
-set clipboard=unnamedplus,autoselect "クリップボード
+set clipboard=unnamedplus "クリップボード
 "autocmd vimenter * NERDTreeToggle "起動時にファイラーを表示
 
 "vim-plug
