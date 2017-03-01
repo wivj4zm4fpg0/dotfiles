@@ -20,7 +20,18 @@ syntax on "構文に色を分ける(viでは使えない)
 set scrolloff=1000 "カーソルの位置を真ん中に調整
 inoremap <ESC> <ESC>:set iminsert=0<CR>  " ESCでIMEを確実にOFF
 set clipboard=unnamedplus "クリップボード
+"削除キーでヤンクしない
+"nnoremap x "_x 
+nnoremap d "_d
+nnoremap D "_D
+"Shift+j,kでタブを移動
+nnoremap J gT
+nnoremap K gt
+"tで新しいタブ
+nnoremap t :tabnew<CR>
 "autocmd vimenter * NERDTreeToggle "起動時にファイラーを表示
+"F8キーでファイラーを起動
+nnoremap <F8> :NERDTreeToggle<CR>
 
 "vim-plug
 call plug#begin('~/.vim/plugged')

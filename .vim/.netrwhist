@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/satoru'
-let g:netrw_dirhist_2='/home/satoru/.CLion2016.3'
-let g:netrw_dirhist_3='/home/satoru/.CLion2016.3/config'
-let g:netrw_dirhist_4='/home/satoru/.CLion2016.3'
-let g:netrw_dirhist_5='/home/satoru/.CLion2016.3/system'
-let g:netrw_dirhist_6='/home/satoru/.CLion2016.3'
-let g:netrw_dirhist_7='/home/satoru'
-let g:netrw_dirhist_8='/home/satoru/CLionProjects'
-let g:netrw_dirhist_9='/home/satoru/CLionProjects/untitled'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/satoru/MyJavaPrograms/src/ex14'
