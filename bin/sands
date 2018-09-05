@@ -1,0 +1,4 @@
+#!/bin/bash -eu
+setxkbmap -option ctrl:nocaps
+xmodmap -e 'keycode 255=space'
+xmodmap -e 'keycode 65=Shift_L'
