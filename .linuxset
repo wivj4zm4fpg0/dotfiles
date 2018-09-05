@@ -1,5 +1,0 @@
-#!/bin/bash
-xcape -e '#65=space'
-synclient FingerHigh=40
-synclient FingerLow=35
-xmodmap -e 'keycode 135=Alt_L'

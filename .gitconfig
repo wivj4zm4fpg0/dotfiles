@@ -1,7 +1,8 @@
 [user]
-	name = wivj4zm4fpg0
-	email = nzswlrkad8cw@gmail.com
+    name = wivj4zm4fpg0
+    email = nzswlrkad8cw@gmail.com
 [color]
-	ui = true
+    ui = true
 [core]
-	editor = vim
+    editor = vim
+    autocrlf = input
