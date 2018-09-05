@@ -1,0 +1,1 @@
+./extract_gpu -f=hoge.avi -x=sample/flow_x -y=sample/flow_y -i=sample/images -o=dir

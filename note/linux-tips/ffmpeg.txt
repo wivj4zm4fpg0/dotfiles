@@ -1,0 +1,63 @@
+git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
+cd nv-codec-headers
+make
+sudo make install
+
+sudo apt install nasm \
+libfdk-aac-dev \
+libgsm1-dev \
+libmp3lame-dev \
+libopenjp2-7-dev \
+libopus-dev \
+libspeex-dev \
+libtheora-dev \
+libv4l-dev \
+libwavpack-dev \
+libvpx-dev \
+libwebp-dev \
+libx264-dev \
+libx265-dev \
+libxvidcore-dev \
+libomxil-bellagio-dev \
+libssl-ocaml-dev \
+libva-dev \
+libvdpau-dev
+
+git clone https://github.com/FFmpeg/FFmpeg.git
+cd FFmpeg
+./configure --enable-gpl \
+--enable-version3 \
+--enable-nonfree \
+--enable-runtime-cpudetect \
+--enable-gray \
+--enable-vaapi \
+--enable-vdpau \
+--enable-libmp3lame \
+--enable-libopenjpeg \
+--enable-libopus \
+--enable-libfdk-aac \
+--enable-libtheora \
+--enable-libvpx \
+--enable-libwebp \
+--cpu=native \
+--enable-vaapi \
+--enable-vdpau \
+--enable-libgsm \
+--enable-libspeex \
+--enable-libwavpack \
+--enable-libxvid \
+--enable-libx264 \
+--enable-libx265 \
+--enable-openssl \
+--enable-nvenc \
+--enable-cuda \
+--enable-omx \
+--enable-libv4l2 \
+--enable-avresample  \
+--enable-nonfree \
+--enable-pic \
+--enable-shared
+make
+sudo make install
+
+sudo ldconfig

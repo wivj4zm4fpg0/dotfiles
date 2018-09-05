@@ -1,0 +1,8 @@
+auto focus disable
+
+window.addEventListener('load',
+function() {
+  document.activeElement.blur();
+  this.removeEventListener('load', arguments.callee, false);
+},
+false);

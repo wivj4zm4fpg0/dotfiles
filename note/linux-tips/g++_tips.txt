@@ -1,0 +1,2 @@
+How to compile with g++ :
+g++ HOGE.cpp `pkg-config --cflags opencv` `pkg-config --libs opencv` -o HOGE
