@@ -14,6 +14,7 @@ xcape -e '#108=Henkan'
 ---
 
 sudo apt install build-essential cmake git pandoc w3m vim-gtk xcape clipit libboost-all-dev
+sudo apt install gnome virtualbox shutter
 sudo timedatectl set-local-rtc 1
 env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
 
@@ -21,6 +22,10 @@ env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
 
 wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 chmod +x winetricks 
+
+---
+
+sudo snap install pycharm-professional --classic
 
 ---
 

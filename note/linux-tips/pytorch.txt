@@ -1,0 +1,17 @@
+conda create -n pytorch pip python=3.6
+
+export CMAKE_PREFIX_PATH="$(dirname $(which conda))/../"
+
+source activate pytorch
+
+conda install numpy pyyaml mkl mkl-include setuptools cmake cffi typing
+conda install -c mingfeima mkldnn
+conda install -c pytorch magma-cuda92
+
+git clone --recursive https://github.com/pytorch/pytorch.git
+cd pytorch
+python setup.py install
+
+git clone --recursive https://github.com/pytorch/vision.git
+cd vision
+python setup.py install

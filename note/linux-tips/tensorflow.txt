@@ -1,0 +1,24 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
+
+sudo apt install openjdk-8-jdk
+echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
+
+sudo apt update && sudo apt install bazel
+sudo apt upgrade bazel
+
+pip install six numpy wheel
+pip install keras_applications==1.0.5 --no-deps
+1.0.4??
+pip install keras_preprocessing==1.0.3 --no-deps
+1.0.2??
+
+git clone https://github.com/tensorflow/tensorflow
+
+cd tensorflow
+git checkout r1.10
+
+./configure
+bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
+bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
+pip install /tmp/tensorflow_pkg/tensorflow-***.whl

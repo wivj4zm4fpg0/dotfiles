@@ -19,7 +19,6 @@ libx264-dev \
 libx265-dev \
 libxvidcore-dev \
 libomxil-bellagio-dev \
-libssl-ocaml-dev \
 libva-dev \
 libvdpau-dev
 
@@ -48,7 +47,6 @@ cd FFmpeg
 --enable-libxvid \
 --enable-libx264 \
 --enable-libx265 \
---enable-openssl \
 --enable-nvenc \
 --enable-cuda \
 --enable-omx \

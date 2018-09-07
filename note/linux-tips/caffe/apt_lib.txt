@@ -2,3 +2,18 @@ sudo apt install python-numpy
 sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
 sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
 sudo apt-get install libatlas-base-dev
+
+conda create -n caffe pip python=3.6
+
+git clone https://github.com/BVLC/caffe.git
+cd caffe
+for req in $(cat python/requirements.txt); do pip install $req; done
+
+cp Makefile.config.example Makefile.config
+vim Makefile.config
+
+make all
+make test
+make runtest
+make pycaffe
+make distribute

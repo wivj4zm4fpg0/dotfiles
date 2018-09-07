@@ -1,8 +1,14 @@
+https://github.com/opencv/opencv.git
+https://github.com/opencv/opencv_contrib.git
+
+git checkout -b 3.4 origin/3.4
+
 sudo apt install pkg-config unzip qtbase5-dev python-dev python3-dev python-numpy python3-numpy
 sudo apt install libopencv-dev libgtk-3-dev libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev
-sudo apt install libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
-sudo apt install libv4l-dev libtbb-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev
-sudo apt install libvorbis-dev libxvidcore-dev v4l-utils vtk6
-sudo apt install liblapacke-dev libopenblas-dev libgdal-dev checkinstall
+sudo apt install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+sudo apt install libv4l-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev
+sudo apt install libvorbis-dev libxvidcore-dev v4l-utils
+sudo apt install liblapacke-dev libopenblas-dev checkinstall
+sudo apt install libgphoto2-dev
 
-sudo apt install libghoto2-dev
+sudo cp libicudata.so.58 libicui18n.so.58 libicuuc.so.58 /usr/lib/x86_64-linux-gnu/
