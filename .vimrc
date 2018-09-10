@@ -28,3 +28,4 @@ nnoremap J gT
 nnoremap K gt
 "tで新しいタブ
 nnoremap t :tabnew<CR>
+autocmd FileType make setlocal noexpandtab "Makefileで普通にタブを使用する
