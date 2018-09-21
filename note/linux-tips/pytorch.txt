@@ -1,4 +1,4 @@
-conda create -n pytorch pip python=3.6
+conda create -n pytorch python=3.6
 
 export CMAKE_PREFIX_PATH="$(dirname $(which conda))/../"
 

@@ -19,4 +19,5 @@ cmake -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
 -D WITH_LIBV4L=ON \
 -D WITH_OPENGL=ON \
 -D WITH_V4L=ON \
+-D WITH_QT=ON \
 ../
