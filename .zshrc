@@ -102,11 +102,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # added by Anaconda3 installer
-export PATH="/home/satoru/anaconda3/bin:$PATH"
+export PATH="/home/satoru/anaconda3/bin:/usr/local/cuda/bin:$PATH"
 
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
 
 export CMAKE_PREFIX_PATH="$(dirname $(which conda))/../"
+
+export CC=gcc-7
+export CXX=g++-7
 
 HISTCONTROL=ignoreboth
 HISTSIZE=10000
