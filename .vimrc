@@ -30,6 +30,7 @@ nnoremap K gt
 nnoremap t :tabnew<CR>
 autocmd FileType make setlocal noexpandtab "Makefileで普通にタブを使用する
 nnoremap <M> :tabnew<CR>
+set showtabline=2 "タブを常に表示
 
 "dein Scripts-----------------------------
 if &compatible
@@ -37,19 +38,22 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/satoru/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/satoru/.cache/dein')
-  call dein#begin('/home/satoru/.cache/dein')
+if dein#load_state('~/.cache/dein')
+  call dein#begin('~/.cache/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/home/satoru/.cache/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('Shougo/unite.vim')
+  call dein#add('itchyny/lightline.vim')
+  call dein#add('sophacles/vim-processing')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/deol.nvim', { 'rev': '01203d4c9' })
@@ -70,3 +74,4 @@ endif
 
 "End dein Scripts-------------------------
 
+let g:lightline = {'colorscheme': 'wombat'}

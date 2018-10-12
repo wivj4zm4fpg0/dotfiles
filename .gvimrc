@@ -27,7 +27,11 @@ set guioptions-=l
 set guioptions-=L
 set guioptions-=b
 syntax on "構文毎に色を分ける
-"colorscheme molokai "カラースキームを使う
+colorscheme molokai "カラースキームを使う
+set guioptions-=e "CUIベースのタブを使う
+set guioptions-=m "メニューバーを非表示
+
+
 set guioptions+=a "ウインドウサイズや位置などを記憶
 let g:save_window_file = expand('~/.vimwinpos')
 augroup SaveWindow
