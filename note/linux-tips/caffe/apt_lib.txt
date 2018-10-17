@@ -17,3 +17,5 @@ make test
 make runtest
 make pycaffe
 make distribute
+
+export PYTHONPATH=~/builds/caffe/python/ 

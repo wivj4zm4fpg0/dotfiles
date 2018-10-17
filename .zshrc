@@ -114,3 +114,5 @@ export CXX=g++-7
 HISTCONTROL=ignoreboth
 HISTSIZE=10000
 HISTFILESIZE=10000
+
+export PYTHONPATH=~/builds/caffe/python/ 

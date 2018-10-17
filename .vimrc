@@ -1,4 +1,3 @@
-if !1 | finish | endif "vim.tinyで読み込ませない
 set expandtab "TABで空白を入力する
 set tabstop=4 "TABで入力される幅
 set shiftwidth=4 "自動インデントでずれる幅
@@ -20,7 +19,7 @@ syntax on "構文に色を分ける(viでは使えない)
 set scrolloff=1000 "カーソルの位置を真ん中に調整
 set clipboard=unnamedplus "クリップボード
 "削除キーでヤンクしない
-"nnoremap x "_x 
+"nnoremap x "_x
 "nnoremap d "_d
 "nnoremap D "_D
 "Shift+j,kでタブを移動
@@ -29,8 +28,17 @@ nnoremap K gt
 "tで新しいタブ
 nnoremap t :tabnew<CR>
 autocmd FileType make setlocal noexpandtab "Makefileで普通にタブを使用する
-nnoremap <M> :tabnew<CR>
 set showtabline=2 "タブを常に表示
+"Ctrl + s でファイル保存
+nnoremap <C-s> :w<CR>
+"Ctrl + x で行を切り取り
+nnoremap <C-x> dd
+nnoremap <C-j> o<ESC>
+nnoremap <C-k> O<ESC>
+nnoremap <C-a> 0
+nnoremap <C-e> $
+nnoremap <C-p> <C-u>
+nnoremap <C-n> <C-d>
 
 "dein Scripts-----------------------------
 if &compatible
@@ -54,6 +62,8 @@ if dein#load_state('~/.cache/dein')
   call dein#add('Shougo/unite.vim')
   call dein#add('itchyny/lightline.vim')
   call dein#add('sophacles/vim-processing')
+  call dein#add('vim-scripts/fcitx.vim')
+  call dein#add('Shougo/neocomplcache')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/deol.nvim', { 'rev': '01203d4c9' })
@@ -73,5 +83,3 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
-
-let g:lightline = {'colorscheme': 'wombat'}
