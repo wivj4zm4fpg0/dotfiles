@@ -1,0 +1,9 @@
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+
+[[plugins]]
+repo = 'sophacles/vim-processing'
+
+[[plugins]]
+repo = 'vim-scripts/fcitx.vim'
+if = '''! has('kaoriya')'''

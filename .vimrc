@@ -1,3 +1,43 @@
+"dein Scripts-----------------------------
+" プラグインが実際にインストールされるディレクトリ
+let s:dein_dir = expand('~/.cache/dein')
+" dein.vim 本体
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+
+" dein.vim がなければ github から落としてくる
+if &runtimepath !~# '/dein.vim'
+  if !isdirectory(s:dein_repo_dir)
+    execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
+  endif
+  execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
+endif
+
+" 設定開始
+if dein#load_state(s:dein_dir)
+  call dein#begin(s:dein_dir)
+
+  " プラグインリストを収めた TOML ファイル
+  " 予め TOML ファイル（後述）を用意しておく
+  let g:rc_dir    = expand('~/.vim/rc')
+  let s:toml      = g:rc_dir . '/dein.toml'
+  let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
+
+  " TOML を読み込み、キャッシュしておく
+  call dein#load_toml(s:toml,      {'lazy': 0})
+  call dein#load_toml(s:lazy_toml, {'lazy': 1})
+
+  " 設定終了
+  call dein#end()
+  call dein#save_state()
+endif
+
+" もし、未インストールものものがあったらインストール
+if dein#check_install()
+  call dein#install()
+endif
+"End dein Scripts-------------------------
+
+syntax on "構文に色を分ける(viでは使えない)
 set expandtab "TABで空白を入力する
 set tabstop=4 "TABで入力される幅
 set shiftwidth=4 "自動インデントでずれる幅
@@ -15,7 +55,6 @@ set nowrap "右端で折り返さない
 set backspace=indent,eol,start "バックスペースの不具合をなくす
 set cursorline "今いる行をハイライトする
 "let loaded_matchparen = 1 "括弧の強調を抑制する
-syntax on "構文に色を分ける(viでは使えない)
 set scrolloff=1000 "カーソルの位置を真ん中に調整
 set clipboard=unnamedplus "クリップボード
 "削除キーでヤンクしない
@@ -39,47 +78,11 @@ nnoremap <C-a> 0
 nnoremap <C-e> $
 nnoremap <C-p> <C-u>
 nnoremap <C-n> <C-d>
+nnoremap <C-q> :q<CR>
+inoremap <C-[> <C-[>:w<CR>
 
-"dein Scripts-----------------------------
-if &compatible
-  set nocompatible               " Be iMproved
-endif
-
-" Required:
-set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
-
-" Required:
-if dein#load_state('~/.cache/dein')
-  call dein#begin('~/.cache/dein')
-
-  " Let dein manage dein
-  " Required:
-  call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
-
-  " Add or remove your plugins here:
-  call dein#add('Shougo/neosnippet.vim')
-  call dein#add('Shougo/neosnippet-snippets')
-  call dein#add('Shougo/unite.vim')
-  call dein#add('itchyny/lightline.vim')
-  call dein#add('sophacles/vim-processing')
-  call dein#add('vim-scripts/fcitx.vim')
-  call dein#add('Shougo/neocomplcache')
-
-  " You can specify revision/branch/tag.
-  call dein#add('Shougo/deol.nvim', { 'rev': '01203d4c9' })
-
-  " Required:
-  call dein#end()
-  call dein#save_state()
-endif
-
-" Required:
-filetype plugin indent on
-syntax enable
-
-" If you want to install not installed plugins on startup.
-if dein#check_install()
-  call dein#install()
-endif
-
-"End dein Scripts-------------------------
+"余計なファイルを作らない
+set noswapfile
+set nobackup
+set viminfo=
+set noundofile
