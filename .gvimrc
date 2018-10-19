@@ -17,8 +17,8 @@
 "set backspace=indent,eol,start "バックスペースの不具合をなくす
 "set cursorline "今いる行をハイライトする
 set guioptions-=T "GUIでツールバーを隠す
-"set guifont=Monospace\ Regular\ 12 "GUIでフォントを指定する
-set guifont=Migu_1M:h12:cSHIFTJIS:qDRAFT 
+set guifont=Monospace\ Regular\ 12 "GUIでフォントを指定する
+"set guifont=Migu_1M:h12:cSHIFTJIS:qDRAFT 
 "let loaded_matchparen = 1 "括弧の強調を抑制する
 "set lines=40 "縦幅(GUI)
 "set columns=120 "横幅(GUI)
