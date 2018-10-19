@@ -17,7 +17,8 @@
 "set backspace=indent,eol,start "バックスペースの不具合をなくす
 "set cursorline "今いる行をハイライトする
 set guioptions-=T "GUIでツールバーを隠す
-set guifont=Monospace\ Regular\ 12 "GUIでフォントを指定する
+"set guifont=Monospace\ Regular\ 12 "GUIでフォントを指定する
+set guifont=Migu_1M:h12:cSHIFTJIS:qDRAFT 
 "let loaded_matchparen = 1 "括弧の強調を抑制する
 "set lines=40 "縦幅(GUI)
 "set columns=120 "横幅(GUI)
@@ -31,6 +32,11 @@ colorscheme molokai "カラースキームを使う
 set guioptions-=e "CUIベースのタブを使う
 set guioptions-=m "メニューバーを非表示
 
+"余計なファイルを作らない
+set noswapfile
+set nobackup
+set viminfo=
+set noundofile
 
 set guioptions+=a "ウインドウサイズや位置などを記憶
 let g:save_window_file = expand('~/.vimwinpos')
