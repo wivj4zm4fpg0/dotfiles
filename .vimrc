@@ -9,7 +9,12 @@ if &runtimepath !~# '/dein.vim'
   if !isdirectory(s:dein_repo_dir)
     execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
   endif
-  execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
+  if has('unix')
+      execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
+  endif
+  if has('win32') || has('win64')
+      execute 'set runtimepath^=' . s:dein_repo_dir
+  endif
 endif
 
 " 設定開始
@@ -18,7 +23,12 @@ if dein#load_state(s:dein_dir)
 
   " プラグインリストを収めた TOML ファイル
   " 予め TOML ファイル（後述）を用意しておく
-  let g:rc_dir    = expand('~/.vim/rc')
+  if has('unix')
+      let g:rc_dir    = expand('~/.vim/rc')
+  endif
+  if has('win32') || has('win64')
+      let g:rc_dir    = expand('~/vimfiles/rc')
+  endif
   let s:toml      = g:rc_dir . '/dein.toml'
   let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
 
@@ -78,7 +88,7 @@ nnoremap <C-a> 0
 nnoremap <C-e> $
 nnoremap <C-p> <C-u>
 nnoremap <C-n> <C-d>
-nnoremap <C-q> :q<CR>
+nnoremap <C-q> :q!<CR>
 inoremap <C-[> <C-[>:w<CR>
 
 "余計なファイルを作らない
