@@ -47,6 +47,8 @@ if dein#check_install()
 endif
 "End dein Scripts-------------------------
 
+filetype off
+
 syntax on "構文に色を分ける(viでは使えない)
 set expandtab "TABで空白を入力する
 set tabstop=4 "TABで入力される幅
@@ -71,13 +73,16 @@ set clipboard=unnamedplus "クリップボード
 "nnoremap x "_x
 "nnoremap d "_d
 "nnoremap D "_D
+autocmd FileType make setlocal noexpandtab "Makefileで普通にタブを使用する
+set showtabline=2 "タブを常に表示
+
 "Shift+j,kでタブを移動
 nnoremap J gT
 nnoremap K gt
+nnoremap j gj
+nnoremap k gk
 "tで新しいタブ
 nnoremap t :tabnew<CR>
-autocmd FileType make setlocal noexpandtab "Makefileで普通にタブを使用する
-set showtabline=2 "タブを常に表示
 "Ctrl + s でファイル保存
 nnoremap <C-s> :w<CR>
 "Ctrl + x で行を切り取り
@@ -89,10 +94,21 @@ nnoremap <C-e> $
 nnoremap <C-p> <C-u>
 nnoremap <C-n> <C-d>
 nnoremap <C-q> :q!<CR>
-inoremap <C-[> <C-[>:w<CR>
+"inoremap <C-[> <C-[>:w<CR>
 
 "余計なファイルを作らない
 set noswapfile
 set nobackup
 set viminfo=
 set noundofile
+
+inoremap {<Enter> {}<Left><CR><ESC><S-o>
+
+set nowrap
+
+if has("autocmd")
+    filetype plugin on
+    filetype indent on
+    autocmd filetype processing setlocal sw=4 sts=4 ts=4 et
+    autocmd filetype text set wrap
+endif
