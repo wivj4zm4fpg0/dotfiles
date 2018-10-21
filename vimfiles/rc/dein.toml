@@ -7,3 +7,7 @@ repo = 'sophacles/vim-processing'
 [[plugins]]
 repo = 'vim-scripts/fcitx.vim'
 if = '''! has('kaoriya')'''
+
+[[plugins]]
+repo = 'vim-latex/vim-latex'
+
