@@ -2,7 +2,7 @@ set guioptions-=T "GUIでツールバーを隠す
 set guioptions-=m "メニューバーを非表示
 
 if has('unix')
-    set guifont=Monospace\ Regular\ 12 "GUIでフォントを指定する
+    set guifont=Monospace\ Regular\ 14 "GUIでフォントを指定する
 endif
 if has('win32') || has('win64')
     set guifont=Migu_1M:h12:cSHIFTJIS:qDRAFT

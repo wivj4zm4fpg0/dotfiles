@@ -133,6 +133,22 @@ set clipboard=unnamedplus "クリップボード
 autocmd FileType make setlocal noexpandtab "Makefileで普通にタブを使用する
 set showtabline=2 "タブを常に表示
 
+"余計なファイルを作らない
+set noswapfile
+set nobackup
+set viminfo=
+set noundofile
+
+set nowrap
+
+if has("autocmd")
+    filetype plugin on
+    filetype indent on
+    autocmd filetype processing setlocal sw=4 sts=4 ts=4 et
+    autocmd filetype text set wrap
+endif
+"end my setting---------------------------
+"
 "Shift+j,kでタブを移動
 nnoremap J gT
 nnoremap K gt
@@ -152,21 +168,5 @@ nnoremap <C-p> <C-u>
 nnoremap <C-n> <C-d>
 nnoremap <C-q> :q!<CR>
 "inoremap <C-[> <C-[>:w<CR>
-
-"余計なファイルを作らない
-set noswapfile
-set nobackup
-set viminfo=
-set noundofile
-
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
 
-set nowrap
-
-if has("autocmd")
-    filetype plugin on
-    filetype indent on
-    autocmd filetype processing setlocal sw=4 sts=4 ts=4 et
-    autocmd filetype text set wrap
-endif
-"end my setting---------------------------
