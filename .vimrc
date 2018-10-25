@@ -172,4 +172,7 @@ nnoremap <C-q> :q!<CR>
 "inoremap <C-[> <C-[>:w<CR>
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
 nnoremap <C-j> o<ESC>
-au FileType * setlocal formatoptions-=ro
+au FileType * setlocal formatoptions-=ro "改行時にコメントアウトしない
+autocmd ColorScheme * highlight Normal ctermbg=none "ターミナルの色に同調させる
+autocmd ColorScheme * highlight LineNr ctermbg=none
+colorscheme molokai "カラースキームを使う

@@ -11,3 +11,5 @@ if = '''! has('kaoriya')'''
 [[plugins]]
 repo = 'vim-latex/vim-latex'
 
+[[plugins]]
+repo = 'tomasr/molokai'
