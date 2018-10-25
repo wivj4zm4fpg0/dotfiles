@@ -117,3 +117,4 @@ HISTSIZE=10000
 HISTFILESIZE=10000
 
 export PYTHONPATH=~/builds/caffe/python/
+alias sd='while :; do; hoge=$(echo "..\n$(find . -maxdepth 1 -mindepth 1 -type d ! -name ".*")" | sed -e "s:^\./::" | peco); if [ -z "$hoge" ]; then; break; else; cd $hoge; fi; done'
