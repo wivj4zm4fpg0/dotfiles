@@ -1,3 +1,5 @@
 .vimwinpos
 .cache
 .gitconfig
+.keras
+.matplotlib

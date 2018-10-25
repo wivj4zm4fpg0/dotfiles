@@ -1,3 +1,4 @@
+nnoremap <C-j> o<ESC>
 "dein Scripts-----------------------------
 " プラグインが実際にインストールされるディレクトリ
 let s:dein_dir = expand('~/.cache/dein')
@@ -101,6 +102,7 @@ if has('unix')
     "let g:Tex_ViewRule_pdf = 'firefox -new-window'
     "let g:Tex_ViewRule_pdf = 'chromium --new-window'endif
 endif
+let g:Tex_AutoFolding = 0
 "end Vim-LaTeX----------------------------
 
 "my setting-------------------------------
@@ -132,6 +134,7 @@ set clipboard=unnamedplus "クリップボード
 "nnoremap D "_D
 autocmd FileType make setlocal noexpandtab "Makefileで普通にタブを使用する
 set showtabline=2 "タブを常に表示
+set autoread
 
 "余計なファイルを作らない
 set noswapfile
@@ -160,7 +163,6 @@ nnoremap t :tabnew<CR>
 nnoremap <C-s> :w<CR>
 "Ctrl + x で行を切り取り
 nnoremap <C-x> dd
-nnoremap <C-j> o<ESC>
 nnoremap <C-k> O<ESC>
 nnoremap <C-a> 0
 nnoremap <C-e> $
@@ -169,4 +171,5 @@ nnoremap <C-n> <C-d>
 nnoremap <C-q> :q!<CR>
 "inoremap <C-[> <C-[>:w<CR>
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
-
+nnoremap <C-j> o<ESC>
+au FileType * setlocal formatoptions-=ro
