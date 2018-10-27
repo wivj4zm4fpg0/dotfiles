@@ -150,8 +150,10 @@ set nobackup
 set viminfo=
 set noundofile
 
+"右で折り返さない
 set nowrap
 
+"特定の拡張子で挙動を変える
 if has("autocmd")
     filetype plugin on
     filetype indent on
@@ -162,6 +164,8 @@ endif
 "Shift+j,kでタブを移動
 nnoremap J gT
 nnoremap K gt
+
+"折り返し行でのjkの挙動を変える
 nnoremap j gj
 nnoremap k gk
 
@@ -174,6 +178,7 @@ nnoremap <C-s> :w<CR>
 "Ctrl + x で行を切り取り
 nnoremap <C-x> dd
 
+"その他色々なキーバインドを変更する
 nnoremap <C-j> o<ESC>
 nnoremap <C-k> O<ESC>
 nnoremap <C-a> 0
@@ -181,7 +186,6 @@ nnoremap <C-e> $
 nnoremap <C-p> <C-u>
 nnoremap <C-n> <C-d>
 nnoremap <C-q> :q!<CR>
-inoremap {<Enter> {}<Left><CR><ESC><S-o>
 
 "ターミナルの色に同調させる
 autocmd ColorScheme * highlight Normal ctermbg=none
@@ -191,6 +195,8 @@ colorscheme molokai "カラースキームを使う
 
 "コメントを暗い茶色にする
 hi Comment ctermfg=94
+"括弧のハイライトを見やすくする
+hi MatchParen ctermfg=LightGreen ctermbg=blue
 
 au FileType * setlocal formatoptions-=ro "改行時にコメントアウトをしない
 

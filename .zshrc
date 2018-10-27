@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # added by Anaconda3 installer
-export PATH="/home/satoru/anaconda3/bin:/usr/local/cuda/bin:$PATH"
+export PATH="~/anaconda3/bin:/usr/local/cuda/bin:$PATH"
 
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
 
@@ -117,4 +117,27 @@ HISTSIZE=10000
 HISTFILESIZE=10000
 
 export PYTHONPATH=~/builds/caffe/python/
-alias sd='while :; do; hoge=$(echo "..\n$(find . -maxdepth 1 -mindepth 1 -type d ! -name ".*")" | sed -e "s:^\./::" | peco); if [ -z "$hoge" ]; then; break; else; cd $hoge; fi; done'
+
+function c() {
+    cd $1
+    pwd >> ~/.cd_history
+    if [ $(cat ~/.cd_history | wc -l) -ge $HISTSIZE ]; then
+        sed -i -e '1d' ~/.cd_history
+    fi
+}
+
+alias sd='
+while :; do
+    hoge=$(echo "..\n$(find . -maxdepth 1 -mindepth 1 -type d ! -name ".*")" | sed -e "s:^\./::" | peco)
+    if [ -z "$hoge" ]; then
+        break
+    else
+        cd $hoge
+    fi
+done
+pwd >> ~/.cd_history
+if [ $(cat ~/.cd_history | wc -l) -ge $HISTSIZE ]; then
+    sed -i -e "1d" ~/.cd_history
+fi'
+
+alias hd='cd $(tac ~/.cd_history | peco)'

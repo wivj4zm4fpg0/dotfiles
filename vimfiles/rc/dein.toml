@@ -1,15 +1,24 @@
+# ステータスバーの表示を変える
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 
+# vimでProcessingを使えるようにする
 [[plugins]]
 repo = 'sophacles/vim-processing'
 
+# LinuxでIMEを使いやすくする
 [[plugins]]
 repo = 'vim-scripts/fcitx.vim'
 if = '''! has('kaoriya')'''
 
-#[[plugins]]
-#repo = 'vim-latex/vim-latex'
+# vimでlatexを使う
+# [[plugins]]
+# repo = 'vim-latex/vim-latex'
 
+# カラースキームでmolokaiを使う
 [[plugins]]
 repo = 'tomasr/molokai'
+
+# 括弧などの補間を使いやすくする
+[[plugins]]
+repo = 'cohama/lexima.vim'

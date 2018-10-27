@@ -7,3 +7,4 @@ ln -sf $PWD/.spacemacs ~
 ln -sf $PWD/.zshrc ~
 ln -sf $PWD/.oh-my-zsh ~
 ln -sf $PWD/.tmux.conf ~
+ln -sf $PWD/peco ~/.config
