@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # added by Anaconda3 installer
-export PATH="~/anaconda3/bin:/usr/local/cuda/bin:$PATH"
+export PATH="$HOME/anaconda3/bin:/usr/local/cuda/bin:$PATH"
 
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
 
@@ -141,3 +141,7 @@ if [ $(cat ~/.cd_history | wc -l) -ge $HISTSIZE ]; then
 fi'
 
 alias hd='cd $(tac ~/.cd_history | peco)'
+
+alias la='ls -A'
+
+alias cd='c'
