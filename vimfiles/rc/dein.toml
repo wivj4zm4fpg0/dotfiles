@@ -22,3 +22,7 @@ repo = 'tomasr/molokai'
 # 括弧などの補間を使いやすくする
 [[plugins]]
 repo = 'cohama/lexima.vim'
+
+# カーソル移動が簡単になる
+[[plugins]]
+repo = 'Lokaltog/vim-easymotion'

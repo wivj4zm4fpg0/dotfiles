@@ -130,7 +130,6 @@ set number "行番号を表示する
 set nowrap "右端で折り返さない
 set backspace=indent,eol,start "バックスペースの不具合をなくす
 set cursorline "今いる行をハイライトする
-"let loaded_matchparen = 1 "括弧の強調を抑制する
 set scrolloff=1000 "カーソルの位置を真ん中に調整
 set clipboard=unnamedplus "クリップボード
 
@@ -186,6 +185,11 @@ nnoremap <C-e> $
 nnoremap <C-p> <C-u>
 nnoremap <C-n> <C-d>
 nnoremap <C-q> :q!<CR>
+
+" スペースキーをリーダーキーにする
+let mapleader = "\<Space>"
+" リーダーキーを一回押すとeasymotionが起動するようにする
+map <Leader> <Plug>(easymotion-prefix)
 
 "ターミナルの色に同調させる
 autocmd ColorScheme * highlight Normal ctermbg=none

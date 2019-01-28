@@ -116,7 +116,7 @@ HISTCONTROL=ignoreboth
 HISTSIZE=10000
 HISTFILESIZE=10000
 
-export PYTHONPATH=~/builds/caffe/python/
+export PYTHONPATH=~/works/caffe/python/
 
 function c() {
     cd $1
@@ -145,3 +145,6 @@ alias hd='cd $(tac ~/.cd_history | peco)'
 alias la='ls -A'
 
 alias cd='c'
+
+alias taskpy='python ~/works/task_python/task.py'
+
