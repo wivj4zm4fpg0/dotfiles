@@ -3,3 +3,6 @@
 .gitconfig
 .keras
 .matplotlib
+.ipython
+.conda
+.jupyter
