@@ -9,3 +9,7 @@ ln -sf $PWD/.oh-my-zsh ~
 ln -sf $PWD/.tmux.conf ~
 ln -sf $PWD/peco ~/.config
 ln -sf $PWD/.ideavimrc ~
+ln -sf $PWD/.vim ~
+
+mkdir ~/.config/nvim
+ln -sf $PWD/.vimrc ~/.config/nvim/init.vim
