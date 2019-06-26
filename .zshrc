@@ -146,5 +146,7 @@ alias la='ls -A'
 
 alias cd='c'
 
-alias taskpy='python ~/works/task_python/task.py'
+alias taskpy='python ~/bin/task.py'
 
+export ANT_HOME=/usr/local/apache-ant-1.10.5
+export JAVA_HOME=/usr/lib/jvm/jdk-11.0.2
