@@ -116,13 +116,13 @@ nnoremap t :tabnew<CR>
 nnoremap <C-s> :w<CR>
 
 "Ctrl + x で行を切り取り
-nnoremap <C-x> dd
+"nnoremap <C-x> dd
 
 "その他色々なキーバインドを変更する
 nnoremap <C-j> o<ESC>
 nnoremap <C-k> O<ESC>
-noremap <C-a> 0
-noremap <C-e> $
+"noremap <C-a> 0
+"noremap <C-e> $
 noremap <C-p> <C-u>
 noremap <C-n> <C-d>
 nnoremap <C-q> :q!<CR>
