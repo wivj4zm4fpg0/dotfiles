@@ -114,6 +114,7 @@ nnoremap t :tabnew<CR>
 
 "Ctrl + s でファイル保存
 nnoremap <C-s> :w<CR>
+inoremap <C-s> <ESC>:w<CR>a
 
 "その他色々なキーバインドを変更する
 nnoremap <C-j> o<ESC>
@@ -139,6 +140,8 @@ hi Comment ctermfg=94
 hi MatchParen ctermfg=LightGreen ctermbg=blue
 
 au FileType * setlocal formatoptions-=ro "改行時にコメントアウトをしない
+
+set belloff=all "ビープ音を鳴らさないようにする
 
 "end my setting---------------------------
 
