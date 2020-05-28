@@ -2,13 +2,18 @@ import os
 
 
 def file_delete(input_dir: str, depth: int, threshold: int):
-    for file_name in os.listdir(input_dir):
-        if n > 0:
+    input_dir_list = os.listdir(input_dir)
+    for file_name in input_dir_list:
+        if depth > 0:  # 指定した深さに到達していないときは再帰的に呼び出す
             file_delete(os.path.join(input_dir, file_name), depth - 1, threshold)
         else:
-            if len(os.listdir(input_dir)) <= threshold:
+            if len(input_dir_list) <= threshold:  # 指定した数よりファイル数が少ないなら何もしない
                 continue
-            os.remove(os.listdir(input_dir)[:threshold])
+            # 上から数えていき指定数より下のファイルを抽出
+            files = [os.path.join(input_dir, file_name) for file_name in input_dir_list[threshold:]]
+            for file in files:
+                if os.path.isfile(file):
+                    os.remove(file)
 
 
 if __name__ == '__main__':
