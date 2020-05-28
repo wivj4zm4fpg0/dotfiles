@@ -1,10 +1,10 @@
 import os
 
 
-def file_count(input_dir, n):
+def file_count(input_dir: str, depth: int):
     for file_name in os.listdir(input_dir):
-        if n > 0:
-            file_count(os.path.join(input_dir, file_name), n - 1)
+        if depth > 0:
+            file_count(os.path.join(input_dir, file_name), depth - 1)
         else:
             command = f'cd {input_dir} ; ls -U1 | wc -l'
             output = os.popen(command).read()[:-1]
