@@ -3,11 +3,13 @@ import os
 
 def file_delete(input_dir: str, depth: int, delete_name: str):
     for file_name in os.listdir(input_dir):
+        file_name_path = os.path.join(input_dir, file_name)
         if depth > 0:  # 指定した深さに到達していないときは再帰的に呼び出す
-            file_delete(os.path.join(input_dir, file_name), depth - 1, threshold)
+            file_delete(file_name_path, depth - 1, delete_name)
         else:
             if file_name == delete_name:
-                os.remove(os.path.join(input_dir, file_name))
+                print(f'remove {file_name_path=}')
+                os.remove(file_name_path)
 
 
 if __name__ == '__main__':
