@@ -8,44 +8,44 @@ let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 
 " dein.vim がなければ github から落としてくる
 if &runtimepath !~# '/dein.vim'
-  if !isdirectory(s:dein_repo_dir)
-    execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
-  endif
-  if has('unix')
-      execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
-  endif
-  if has('win32') || has('win64')
-      execute 'set runtimepath^=' . s:dein_repo_dir
-  endif
+    if !isdirectory(s:dein_repo_dir)
+        execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
+    endif
+    if has('unix')
+        execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
+    endif
+    if has('win32') || has('win64')
+        execute 'set runtimepath^=' . s:dein_repo_dir
+    endif
 endif
 
 " 設定開始
 if dein#load_state(s:dein_dir)
-  call dein#begin(s:dein_dir)
+    call dein#begin(s:dein_dir)
 
-  " プラグインリストを収めた TOML ファイル
-  " 予め TOML ファイル（後述）を用意しておく
-  if has('unix')
-      let g:rc_dir    = expand('~/.vim/rc')
-  endif
-  if has('win32') || has('win64')
-      let g:rc_dir    = expand('~/vimfiles/rc')
-  endif
-  let s:toml      = g:rc_dir . '/dein.toml'
-  let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
+    " プラグインリストを収めた TOML ファイル
+    " 予め TOML ファイル（後述）を用意しておく
+    if has('unix')
+        let g:rc_dir    = expand('~/.vim/rc')
+    endif
+    if has('win32') || has('win64')
+        let g:rc_dir    = expand('~/vimfiles/rc')
+    endif
+    let s:toml      = g:rc_dir . '/dein.toml'
+    let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
 
-  " TOML を読み込み、キャッシュしておく
-  call dein#load_toml(s:toml,      {'lazy': 0})
-  call dein#load_toml(s:lazy_toml, {'lazy': 1})
+    " TOML を読み込み、キャッシュしておく
+    call dein#load_toml(s:toml,      {'lazy': 0})
+    call dein#load_toml(s:lazy_toml, {'lazy': 1})
 
-  " 設定終了
-  call dein#end()
-  call dein#save_state()
+    " 設定終了
+    call dein#end()
+    call dein#save_state()
 endif
 
 " もし、未インストールものものがあったらインストール
 if dein#check_install()
-  call dein#install()
+    call dein#install()
 endif
 
 "End dein Scripts-------------------------
@@ -90,15 +90,12 @@ set nobackup
 set viminfo=
 set noundofile
 
-"右で折り返さない
-set nowrap
-
 "特定の拡張子で挙動を変える
 if has("autocmd")
     filetype plugin on
     filetype indent on
     autocmd filetype processing setlocal sw=4 sts=4 ts=4 et
-    autocmd filetype text set wrap
+    "autocmd filetype text set wrap
 endif
 
 "Shift+j,kでタブを移動
@@ -149,34 +146,34 @@ set belloff=all "ビープ音を鳴らさないようにする
 
 " 個別のタブの表示設定をします
 function! GuiTabLabel()
-  " タブで表示する文字列の初期化をします
-  let l:label = ''
+    " タブで表示する文字列の初期化をします
+    let l:label = ''
 
-  " タブに含まれるバッファ(ウィンドウ)についての情報をとっておきます。
-  let l:bufnrlist = tabpagebuflist(v:lnum)
+    " タブに含まれるバッファ(ウィンドウ)についての情報をとっておきます。
+    let l:bufnrlist = tabpagebuflist(v:lnum)
 
-  " 表示文字列にバッファ名を追加します
-  " パスを全部表示させると長いのでファイル名だけを使います 詳しくは help fnamemodify()
-  let l:bufname = fnamemodify(bufname(l:bufnrlist[tabpagewinnr(v:lnum) - 1]), ':t')
-  " バッファ名がなければ No title としておきます。ここではマルチバイト文字を使わないほうが無難です
-  let l:label .= l:bufname == '' ? 'No title' : l:bufname
+    " 表示文字列にバッファ名を追加します
+    " パスを全部表示させると長いのでファイル名だけを使います 詳しくは help fnamemodify()
+    let l:bufname = fnamemodify(bufname(l:bufnrlist[tabpagewinnr(v:lnum) - 1]), ':t')
+    " バッファ名がなければ No title としておきます。ここではマルチバイト文字を使わないほうが無難です
+    let l:label .= l:bufname == '' ? 'No title' : l:bufname
 
-  " タブ内にウィンドウが複数あるときにはその数を追加します(デフォルトで一応あるので)
-  let l:wincount = tabpagewinnr(v:lnum, '$')
-  if l:wincount > 1
-    let l:label .= '[' . l:wincount . ']'
-  endif
-
-  " このタブページに変更のあるバッファがるときには '[+]' を追加します(デフォルトで一応あるので)
-  for bufnr in l:bufnrlist
-    if getbufvar(bufnr, "&modified")
-      let l:label .= '[+]'
-      break
+    " タブ内にウィンドウが複数あるときにはその数を追加します(デフォルトで一応あるので)
+    let l:wincount = tabpagewinnr(v:lnum, '$')
+    if l:wincount > 1
+        let l:label .= '[' . l:wincount . ']'
     endif
-  endfor
 
-  " 表示文字列を返します
-  return l:label
+    " このタブページに変更のあるバッファがるときには '[+]' を追加します(デフォルトで一応あるので)
+    for bufnr in l:bufnrlist
+        if getbufvar(bufnr, "&modified")
+            let l:label .= '[+]'
+            break
+        endif
+    endfor
+
+    " 表示文字列を返します
+    return l:label
 endfunction
 
 " guitablabel に上の関数を設定します
@@ -199,29 +196,29 @@ imap <C-h> <BS>
 imap <C-k> <C-r>=<SID>kill()<CR>
 
 function! s:home()
-  let start_column = col('.')
-  normal! ^
-  if col('.') == start_column
-  | normal! 0
-  endif
-  return ''
+    let start_column = col('.')
+    normal! ^
+    if col('.') == start_column
+        | normal! 0
+    endif
+    return ''
 endfunction
 
 function! s:kill()
-  let [text_before, text_after] = s:split_line()
-  if len(text_after) == 0
-  | normal! J
-  else
-  | call setline(line('.'), text_before)
-  endif
-  return ''
+    let [text_before, text_after] = s:split_line()
+    if len(text_after) == 0
+        | normal! J
+    else
+        | call setline(line('.'), text_before)
+    endif
+    return ''
 endfunction
 
 function! s:split_line()
-  let line_text = getline(line('.'))
-  let text_after  = line_text[col('.')-1 :]
-  let text_before = (col('.') > 1) ? line_text[: col('.')-2] : ''
-  return [text_before, text_after]
+    let line_text = getline(line('.'))
+    let text_after  = line_text[col('.')-1 :]
+    let text_before = (col('.') > 1) ? line_text[: col('.')-2] : ''
+    return [text_before, text_after]
 endfunction
 
 "end emacs setting---------------------------------
